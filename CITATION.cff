@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use TempoVul, please cite the paper below. This citation will be updated once the manuscript is accepted."
+title: "A Temporal Benchmark Study of LLM-Assisted Vulnerability Detection Across the Secure SDLC"
+authors:
+  - family-names: Quaye
+    given-names: Samson
+    affiliation: "Illinois Institute of Technology, C2SAFE"
+  - family-names: "Ben Ayed"
+    given-names: Ahmed
+    affiliation: "National University"
+  - family-names: Dawson
+    given-names: Maurice
+    affiliation: "Illinois Institute of Technology, C2SAFE"
+  - family-names: Omar
+    given-names: Marwan
+    affiliation: "Illinois Institute of Technology, C2SAFE"
+date-released: 2026-07-08
+repository-code: "https://github.com/qsamson/TempoVul"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "A Temporal Benchmark Study of LLM-Assisted Vulnerability Detection Across the Secure SDLC"
+  authors:
+    - family-names: Quaye
+      given-names: Samson
+    - family-names: "Ben Ayed"
+      given-names: Ahmed
+    - family-names: Dawson
+      given-names: Maurice
+    - family-names: Omar
+      given-names: Marwan
+  year: 2026
+  notes: "Manuscript submitted for publication. Citation details will be updated upon acceptance."
