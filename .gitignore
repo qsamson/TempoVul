@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Checkpoints and intermediate files from experimentation
+*_checkpoint.csv
+*_checkpoint.json
+
+# Large model weights if ever downloaded locally
+*.bin
+*.safetensors
+*.gguf
