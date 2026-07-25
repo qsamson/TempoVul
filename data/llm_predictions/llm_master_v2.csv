@@ -1,0 +1,1601 @@
+sample_id,stage,stage_name,ground_truth,category,cwe,codellama_pred,starcoder2_pred,deepseek_pred,mistral_pred,wizardcoder_pred
+0,1,stage1,1,Memory Safety (Juliet),121.0,1,0,0,1,1
+0,2,stage2,1,Memory Safety (Juliet),121.0,1,1,0,0,1
+0,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+0,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+1,1,stage1,1,Memory Safety (Juliet),127.0,1,0,1,1,1
+1,2,stage2,1,Memory Safety (Juliet),127.0,1,0,1,1,1
+1,3,stage3,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+1,4,stage4,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+2,1,stage1,1,Memory Safety (Juliet),127.0,1,0,0,1,1
+2,2,stage2,1,Memory Safety (Juliet),127.0,1,1,1,1,1
+2,3,stage3,1,Memory Safety (Juliet),127.0,0,1,1,1,1
+2,4,stage4,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+3,1,stage1,1,Memory Safety (Juliet),127.0,1,0,1,1,1
+3,2,stage2,1,Memory Safety (Juliet),127.0,1,0,1,1,1
+3,3,stage3,1,Memory Safety (Juliet),127.0,0,0,0,1,1
+3,4,stage4,1,Memory Safety (Juliet),127.0,0,0,0,1,1
+4,1,stage1,1,Memory Safety (Juliet),124.0,1,0,1,1,1
+4,2,stage2,1,Memory Safety (Juliet),124.0,1,1,0,0,1
+4,3,stage3,1,Memory Safety (Juliet),124.0,0,0,1,1,1
+4,4,stage4,1,Memory Safety (Juliet),124.0,0,0,1,1,1
+5,1,stage1,1,Memory Safety (Juliet),124.0,1,0,1,1,1
+5,2,stage2,1,Memory Safety (Juliet),124.0,1,1,0,0,0
+5,3,stage3,1,Memory Safety (Juliet),124.0,0,0,1,1,1
+5,4,stage4,1,Memory Safety (Juliet),124.0,0,0,1,1,1
+6,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+6,2,stage2,1,Memory Safety (Juliet),121.0,1,0,1,1,0
+6,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+6,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+7,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+7,2,stage2,1,Memory Safety (Juliet),122.0,1,1,1,1,1
+7,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+7,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+8,1,stage1,1,Memory Safety (Juliet),122.0,1,0,0,1,0
+8,2,stage2,1,Memory Safety (Juliet),122.0,1,0,0,1,0
+8,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+8,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+9,1,stage1,1,Memory Safety (Juliet),122.0,1,0,0,1,0
+9,2,stage2,1,Memory Safety (Juliet),122.0,1,1,0,0,1
+9,3,stage3,1,Memory Safety (Juliet),122.0,0,1,1,1,1
+9,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+10,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+10,2,stage2,1,Memory Safety (Juliet),121.0,1,1,1,1,1
+10,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+10,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+11,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,0
+11,2,stage2,1,Memory Safety (Juliet),121.0,1,1,1,1,1
+11,3,stage3,1,Memory Safety (Juliet),121.0,0,1,1,1,1
+11,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+12,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+12,2,stage2,1,Memory Safety (Juliet),122.0,1,1,1,1,1
+12,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+12,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+13,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+13,2,stage2,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+13,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+13,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+14,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,0
+14,2,stage2,1,Memory Safety (Juliet),121.0,1,1,1,1,1
+14,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+14,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+15,1,stage1,1,Memory Safety (Juliet),124.0,1,0,0,1,1
+15,2,stage2,1,Memory Safety (Juliet),124.0,1,0,0,1,1
+15,3,stage3,1,Memory Safety (Juliet),124.0,0,0,0,1,1
+15,4,stage4,1,Memory Safety (Juliet),124.0,0,0,1,1,1
+16,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+16,2,stage2,1,Memory Safety (Juliet),122.0,1,1,1,0,1
+16,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+16,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+17,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+17,2,stage2,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+17,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+17,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+18,1,stage1,1,Memory Safety (Juliet),127.0,1,0,1,1,1
+18,2,stage2,1,Memory Safety (Juliet),127.0,1,1,1,1,1
+18,3,stage3,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+18,4,stage4,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+19,1,stage1,1,Memory Safety (Juliet),121.0,1,0,0,1,0
+19,2,stage2,1,Memory Safety (Juliet),121.0,1,1,1,1,1
+19,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+19,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+20,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,0
+20,2,stage2,1,Memory Safety (Juliet),121.0,1,1,1,1,1
+20,3,stage3,1,Memory Safety (Juliet),121.0,0,1,1,1,1
+20,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+21,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+21,2,stage2,1,Memory Safety (Juliet),121.0,1,1,1,1,1
+21,3,stage3,1,Memory Safety (Juliet),121.0,0,1,1,1,1
+21,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+22,1,stage1,1,Memory Safety (Juliet),124.0,1,0,1,1,1
+22,2,stage2,1,Memory Safety (Juliet),124.0,1,0,0,0,0
+22,3,stage3,1,Memory Safety (Juliet),124.0,0,1,1,1,1
+22,4,stage4,1,Memory Safety (Juliet),124.0,0,0,1,1,1
+23,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+23,2,stage2,1,Memory Safety (Juliet),122.0,1,1,1,1,1
+23,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+23,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+24,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+24,2,stage2,1,Memory Safety (Juliet),121.0,1,1,1,1,0
+24,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+24,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+25,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+25,2,stage2,1,Memory Safety (Juliet),121.0,1,1,0,0,1
+25,3,stage3,1,Memory Safety (Juliet),121.0,0,1,1,1,1
+25,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+26,1,stage1,1,Memory Safety (Juliet),121.0,1,0,0,1,0
+26,2,stage2,1,Memory Safety (Juliet),121.0,1,1,0,0,1
+26,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,0
+26,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+27,1,stage1,1,Memory Safety (Juliet),121.0,1,0,0,1,1
+27,2,stage2,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+27,3,stage3,1,Memory Safety (Juliet),121.0,0,1,1,1,1
+27,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+28,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+28,2,stage2,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+28,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+28,4,stage4,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+29,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+29,2,stage2,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+29,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+29,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+30,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+30,2,stage2,1,Memory Safety (Juliet),122.0,1,0,0,0,0
+30,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+30,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+31,1,stage1,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+31,2,stage2,1,Memory Safety (Juliet),122.0,1,1,1,1,1
+31,3,stage3,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+31,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+32,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+32,2,stage2,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+32,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+32,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+33,1,stage1,1,Memory Safety (Juliet),127.0,1,0,1,1,1
+33,2,stage2,1,Memory Safety (Juliet),127.0,1,1,1,1,1
+33,3,stage3,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+33,4,stage4,1,Memory Safety (Juliet),127.0,0,1,1,1,1
+34,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+34,2,stage2,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+34,3,stage3,1,Memory Safety (Juliet),121.0,0,1,1,1,1
+34,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+35,1,stage1,1,Memory Safety (Juliet),127.0,1,0,1,1,1
+35,2,stage2,1,Memory Safety (Juliet),127.0,1,1,1,1,1
+35,3,stage3,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+35,4,stage4,1,Memory Safety (Juliet),127.0,0,0,1,1,1
+36,1,stage1,1,Memory Safety (Juliet),124.0,1,0,1,1,1
+36,2,stage2,1,Memory Safety (Juliet),124.0,1,0,1,1,1
+36,3,stage3,1,Memory Safety (Juliet),124.0,0,1,1,1,0
+36,4,stage4,1,Memory Safety (Juliet),124.0,1,0,1,1,1
+37,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+37,2,stage2,1,Memory Safety (Juliet),121.0,1,1,0,1,1
+37,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+37,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+38,1,stage1,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+38,2,stage2,1,Memory Safety (Juliet),121.0,1,0,1,1,1
+38,3,stage3,1,Memory Safety (Juliet),121.0,0,0,1,1,0
+38,4,stage4,1,Memory Safety (Juliet),121.0,0,0,1,1,1
+39,1,stage1,1,Memory Safety (Juliet),122.0,1,0,0,1,0
+39,2,stage2,1,Memory Safety (Juliet),122.0,1,1,1,1,1
+39,3,stage3,1,Memory Safety (Juliet),122.0,1,0,1,1,1
+39,4,stage4,1,Memory Safety (Juliet),122.0,0,0,1,1,1
+40,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+40,2,stage2,0,Memory Safety (Juliet),121.0,0,0,0,0,1
+40,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+40,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+41,1,stage1,0,Memory Safety (Juliet),127.0,1,0,0,0,1
+41,2,stage2,0,Memory Safety (Juliet),127.0,0,0,0,0,0
+41,3,stage3,0,Memory Safety (Juliet),127.0,1,0,0,0,1
+41,4,stage4,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+42,1,stage1,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+42,2,stage2,0,Memory Safety (Juliet),127.0,1,0,0,0,1
+42,3,stage3,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+42,4,stage4,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+43,1,stage1,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+43,2,stage2,0,Memory Safety (Juliet),127.0,0,0,0,0,0
+43,3,stage3,0,Memory Safety (Juliet),127.0,1,0,0,0,1
+43,4,stage4,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+44,1,stage1,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+44,2,stage2,0,Memory Safety (Juliet),124.0,1,1,0,1,1
+44,3,stage3,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+44,4,stage4,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+45,1,stage1,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+45,2,stage2,0,Memory Safety (Juliet),124.0,1,1,0,0,0
+45,3,stage3,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+45,4,stage4,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+46,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,1
+46,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+46,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+46,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+47,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+47,2,stage2,0,Memory Safety (Juliet),122.0,1,0,0,0,1
+47,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+47,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+48,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,0,0
+48,2,stage2,0,Memory Safety (Juliet),122.0,1,1,0,0,1
+48,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+48,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+49,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+49,2,stage2,0,Memory Safety (Juliet),122.0,1,0,0,0,1
+49,3,stage3,0,Memory Safety (Juliet),122.0,1,1,0,1,1
+49,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+50,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+50,2,stage2,0,Memory Safety (Juliet),121.0,0,0,0,0,0
+50,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+50,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+51,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+51,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,0,1
+51,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+51,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+52,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,0,1
+52,2,stage2,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+52,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+52,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+53,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+53,2,stage2,0,Memory Safety (Juliet),122.0,1,0,0,0,1
+53,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+53,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+54,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+54,2,stage2,0,Memory Safety (Juliet),121.0,1,1,0,0,1
+54,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+54,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,0
+55,1,stage1,0,Memory Safety (Juliet),124.0,1,0,0,0,1
+55,2,stage2,0,Memory Safety (Juliet),124.0,0,0,0,0,0
+55,3,stage3,0,Memory Safety (Juliet),124.0,1,1,0,1,1
+55,4,stage4,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+56,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+56,2,stage2,0,Memory Safety (Juliet),122.0,1,0,1,1,1
+56,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+56,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+57,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+57,2,stage2,0,Memory Safety (Juliet),122.0,1,0,1,1,1
+57,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+57,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+58,1,stage1,0,Memory Safety (Juliet),127.0,1,0,0,0,1
+58,2,stage2,0,Memory Safety (Juliet),127.0,0,0,0,0,0
+58,3,stage3,0,Memory Safety (Juliet),127.0,1,0,0,0,1
+58,4,stage4,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+59,1,stage1,0,Memory Safety (Juliet),121.0,0,0,0,0,1
+59,2,stage2,0,Memory Safety (Juliet),121.0,0,0,0,0,0
+59,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+59,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+60,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,1
+60,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+60,3,stage3,0,Memory Safety (Juliet),121.0,1,0,1,1,1
+60,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+61,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+61,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+61,3,stage3,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+61,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+62,1,stage1,0,Memory Safety (Juliet),124.0,1,0,0,0,1
+62,2,stage2,0,Memory Safety (Juliet),124.0,0,0,0,0,0
+62,3,stage3,0,Memory Safety (Juliet),124.0,1,1,0,1,1
+62,4,stage4,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+63,1,stage1,0,Memory Safety (Juliet),122.0,1,0,1,1,1
+63,2,stage2,0,Memory Safety (Juliet),122.0,1,1,1,1,1
+63,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+63,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+64,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,1
+64,2,stage2,0,Memory Safety (Juliet),121.0,0,1,0,0,0
+64,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+64,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+65,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,1
+65,2,stage2,0,Memory Safety (Juliet),121.0,1,1,0,0,0
+65,3,stage3,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+65,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+66,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+66,2,stage2,0,Memory Safety (Juliet),121.0,0,0,0,0,0
+66,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+66,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+67,1,stage1,0,Memory Safety (Juliet),121.0,0,0,0,0,0
+67,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+67,3,stage3,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+67,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+68,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+68,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+68,3,stage3,0,Memory Safety (Juliet),121.0,1,0,1,1,1
+68,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+69,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+69,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+69,3,stage3,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+69,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+70,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,0,0
+70,2,stage2,0,Memory Safety (Juliet),122.0,0,1,0,0,0
+70,3,stage3,0,Memory Safety (Juliet),122.0,1,1,0,1,1
+70,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+71,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+71,2,stage2,0,Memory Safety (Juliet),122.0,1,0,0,0,0
+71,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+71,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+72,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+72,2,stage2,0,Memory Safety (Juliet),121.0,0,1,0,0,0
+72,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+72,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+73,1,stage1,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+73,2,stage2,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+73,3,stage3,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+73,4,stage4,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+74,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+74,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+74,3,stage3,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+74,4,stage4,0,Memory Safety (Juliet),121.0,0,0,0,1,1
+75,1,stage1,0,Memory Safety (Juliet),127.0,1,0,0,0,0
+75,2,stage2,0,Memory Safety (Juliet),127.0,0,0,0,0,0
+75,3,stage3,0,Memory Safety (Juliet),127.0,1,0,0,0,1
+75,4,stage4,0,Memory Safety (Juliet),127.0,1,0,0,1,1
+76,1,stage1,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+76,2,stage2,0,Memory Safety (Juliet),124.0,1,1,1,1,1
+76,3,stage3,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+76,4,stage4,0,Memory Safety (Juliet),124.0,1,0,0,1,1
+77,1,stage1,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+77,2,stage2,0,Memory Safety (Juliet),121.0,1,1,0,0,1
+77,3,stage3,0,Memory Safety (Juliet),121.0,1,1,0,1,1
+77,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+78,1,stage1,0,Memory Safety (Juliet),121.0,1,0,1,1,1
+78,2,stage2,0,Memory Safety (Juliet),121.0,1,0,0,0,0
+78,3,stage3,0,Memory Safety (Juliet),121.0,1,0,1,1,1
+78,4,stage4,0,Memory Safety (Juliet),121.0,1,0,0,1,1
+79,1,stage1,0,Memory Safety (Juliet),122.0,1,0,0,0,1
+79,2,stage2,0,Memory Safety (Juliet),122.0,1,0,0,0,1
+79,3,stage3,0,Memory Safety (Juliet),122.0,1,0,0,0,1
+79,4,stage4,0,Memory Safety (Juliet),122.0,1,0,0,1,1
+80,1,stage1,1,Memory Safety (BigVul),125.0,0,0,0,1,1
+80,2,stage2,1,Memory Safety (BigVul),125.0,0,1,0,0,0
+80,3,stage3,1,Memory Safety (BigVul),125.0,0,0,0,1,1
+80,4,stage4,1,Memory Safety (BigVul),125.0,1,0,0,0,1
+81,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+81,2,stage2,1,Memory Safety (BigVul),119.0,1,1,0,0,0
+81,3,stage3,1,Memory Safety (BigVul),119.0,0,0,0,0,0
+81,4,stage4,1,Memory Safety (BigVul),119.0,1,0,0,0,1
+82,1,stage1,1,Memory Safety (BigVul),125.0,1,0,0,1,0
+82,2,stage2,1,Memory Safety (BigVul),125.0,1,1,0,0,1
+82,3,stage3,1,Memory Safety (BigVul),125.0,0,0,0,0,1
+82,4,stage4,1,Memory Safety (BigVul),125.0,1,0,0,0,0
+83,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,1
+83,2,stage2,1,Memory Safety (BigVul),119.0,1,1,1,1,1
+83,3,stage3,1,Memory Safety (BigVul),119.0,0,0,0,1,1
+83,4,stage4,1,Memory Safety (BigVul),119.0,0,0,0,1,1
+84,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,1
+84,2,stage2,1,Memory Safety (BigVul),119.0,1,0,0,0,1
+84,3,stage3,1,Memory Safety (BigVul),119.0,0,0,0,1,1
+84,4,stage4,1,Memory Safety (BigVul),119.0,1,0,0,0,1
+85,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+85,2,stage2,1,Memory Safety (BigVul),119.0,0,0,0,0,0
+85,3,stage3,1,Memory Safety (BigVul),119.0,0,0,0,1,0
+85,4,stage4,1,Memory Safety (BigVul),119.0,0,0,0,0,0
+86,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,0,0
+86,2,stage2,1,Memory Safety (BigVul),119.0,1,1,0,0,0
+86,3,stage3,1,Memory Safety (BigVul),119.0,1,0,0,1,1
+86,4,stage4,1,Memory Safety (BigVul),119.0,1,0,0,1,1
+87,1,stage1,1,Memory Safety (BigVul),125.0,1,0,0,1,1
+87,2,stage2,1,Memory Safety (BigVul),125.0,1,0,0,1,0
+87,3,stage3,1,Memory Safety (BigVul),125.0,1,0,0,1,0
+87,4,stage4,1,Memory Safety (BigVul),125.0,0,0,0,1,0
+88,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,1
+88,2,stage2,1,Memory Safety (BigVul),119.0,1,1,0,1,1
+88,3,stage3,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+88,4,stage4,1,Memory Safety (BigVul),119.0,0,0,0,1,0
+89,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+89,2,stage2,1,Memory Safety (BigVul),119.0,1,1,0,1,0
+89,3,stage3,1,Memory Safety (BigVul),119.0,1,1,0,1,0
+89,4,stage4,1,Memory Safety (BigVul),119.0,0,0,0,1,0
+90,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+90,2,stage2,1,Memory Safety (BigVul),119.0,1,1,0,1,0
+90,3,stage3,1,Memory Safety (BigVul),119.0,1,0,0,1,1
+90,4,stage4,1,Memory Safety (BigVul),119.0,1,0,0,0,0
+91,1,stage1,1,Memory Safety (BigVul),125.0,1,0,0,1,0
+91,2,stage2,1,Memory Safety (BigVul),125.0,1,1,0,0,0
+91,3,stage3,1,Memory Safety (BigVul),125.0,1,0,0,1,1
+91,4,stage4,1,Memory Safety (BigVul),125.0,0,0,0,1,1
+92,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,0,1
+92,2,stage2,1,Memory Safety (BigVul),119.0,0,0,0,0,0
+92,3,stage3,1,Memory Safety (BigVul),119.0,0,0,0,0,0
+92,4,stage4,1,Memory Safety (BigVul),119.0,0,0,0,0,1
+93,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+93,2,stage2,1,Memory Safety (BigVul),119.0,1,1,0,1,0
+93,3,stage3,1,Memory Safety (BigVul),119.0,0,0,0,1,1
+93,4,stage4,1,Memory Safety (BigVul),119.0,0,0,0,0,1
+94,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,0,0
+94,2,stage2,1,Memory Safety (BigVul),119.0,0,0,0,0,0
+94,3,stage3,1,Memory Safety (BigVul),119.0,0,0,0,1,1
+94,4,stage4,1,Memory Safety (BigVul),119.0,0,0,0,0,0
+95,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+95,2,stage2,1,Memory Safety (BigVul),119.0,1,0,0,0,0
+95,3,stage3,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+95,4,stage4,1,Memory Safety (BigVul),119.0,1,0,0,0,0
+96,1,stage1,1,Memory Safety (BigVul),125.0,1,0,0,1,0
+96,2,stage2,1,Memory Safety (BigVul),125.0,1,0,0,1,1
+96,3,stage3,1,Memory Safety (BigVul),125.0,1,0,0,0,0
+96,4,stage4,1,Memory Safety (BigVul),125.0,1,0,0,0,1
+97,1,stage1,1,Memory Safety (BigVul),125.0,1,0,0,1,0
+97,2,stage2,1,Memory Safety (BigVul),125.0,1,1,0,1,0
+97,3,stage3,1,Memory Safety (BigVul),125.0,1,0,0,0,0
+97,4,stage4,1,Memory Safety (BigVul),125.0,0,0,0,0,1
+98,1,stage1,1,Memory Safety (BigVul),119.0,1,0,0,1,1
+98,2,stage2,1,Memory Safety (BigVul),119.0,1,1,0,1,0
+98,3,stage3,1,Memory Safety (BigVul),119.0,1,1,0,1,0
+98,4,stage4,1,Memory Safety (BigVul),119.0,1,0,0,1,0
+99,1,stage1,1,Memory Safety (BigVul),125.0,1,0,0,1,1
+99,2,stage2,1,Memory Safety (BigVul),125.0,1,1,0,0,0
+99,3,stage3,1,Memory Safety (BigVul),125.0,1,0,0,1,1
+99,4,stage4,1,Memory Safety (BigVul),125.0,1,0,0,0,1
+100,1,stage1,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+100,2,stage2,0,Memory Safety (BigVul),119.0,0,1,0,0,0
+100,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+100,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,0,1
+101,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+101,2,stage2,0,Memory Safety (BigVul),119.0,1,1,0,0,0
+101,3,stage3,0,Memory Safety (BigVul),119.0,0,0,0,0,1
+101,4,stage4,0,Memory Safety (BigVul),119.0,0,0,0,0,1
+102,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+102,2,stage2,0,Memory Safety (BigVul),119.0,1,1,0,0,0
+102,3,stage3,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+102,4,stage4,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+103,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+103,2,stage2,0,Memory Safety (BigVul),119.0,1,1,0,1,1
+103,3,stage3,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+103,4,stage4,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+104,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+104,2,stage2,0,Memory Safety (BigVul),119.0,0,1,0,0,0
+104,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,0,1
+104,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,0,0
+105,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+105,2,stage2,0,Memory Safety (BigVul),119.0,1,1,0,0,0
+105,3,stage3,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+105,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,0,1
+106,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+106,2,stage2,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+106,3,stage3,0,Memory Safety (BigVul),119.0,1,1,0,1,0
+106,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+107,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+107,2,stage2,0,Memory Safety (BigVul),119.0,0,1,0,0,0
+107,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+107,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,0,1
+108,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+108,2,stage2,0,Memory Safety (BigVul),119.0,1,1,0,1,1
+108,3,stage3,0,Memory Safety (BigVul),119.0,0,0,0,1,0
+108,4,stage4,0,Memory Safety (BigVul),119.0,0,0,0,1,1
+109,1,stage1,0,Memory Safety (BigVul),125.0,1,0,1,1,0
+109,2,stage2,0,Memory Safety (BigVul),125.0,1,0,0,1,0
+109,3,stage3,0,Memory Safety (BigVul),125.0,0,0,0,0,1
+109,4,stage4,0,Memory Safety (BigVul),125.0,0,0,0,0,1
+110,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,0,0
+110,2,stage2,0,Memory Safety (BigVul),119.0,0,1,0,0,1
+110,3,stage3,0,Memory Safety (BigVul),119.0,0,0,0,1,0
+110,4,stage4,0,Memory Safety (BigVul),119.0,0,0,0,0,1
+111,1,stage1,0,Memory Safety (BigVul),787.0,1,0,0,1,0
+111,2,stage2,0,Memory Safety (BigVul),787.0,1,0,0,1,0
+111,3,stage3,0,Memory Safety (BigVul),787.0,1,0,0,1,1
+111,4,stage4,0,Memory Safety (BigVul),787.0,1,0,0,0,1
+112,1,stage1,0,Memory Safety (BigVul),787.0,1,0,0,1,0
+112,2,stage2,0,Memory Safety (BigVul),787.0,1,0,0,1,0
+112,3,stage3,0,Memory Safety (BigVul),787.0,1,0,0,1,0
+112,4,stage4,0,Memory Safety (BigVul),787.0,1,0,0,0,1
+113,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+113,2,stage2,0,Memory Safety (BigVul),119.0,1,1,0,1,0
+113,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+113,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+114,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+114,2,stage2,0,Memory Safety (BigVul),119.0,0,1,0,0,1
+114,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+114,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,0,0
+115,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+115,2,stage2,0,Memory Safety (BigVul),119.0,1,1,0,1,0
+115,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+115,4,stage4,0,Memory Safety (BigVul),119.0,0,0,0,0,1
+116,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+116,2,stage2,0,Memory Safety (BigVul),119.0,1,0,0,0,0
+116,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,0,0
+116,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,0,1
+117,1,stage1,0,Memory Safety (BigVul),125.0,1,0,0,1,0
+117,2,stage2,0,Memory Safety (BigVul),125.0,0,1,0,0,0
+117,3,stage3,0,Memory Safety (BigVul),125.0,0,0,0,0,1
+117,4,stage4,0,Memory Safety (BigVul),125.0,0,0,0,0,1
+118,1,stage1,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+118,2,stage2,0,Memory Safety (BigVul),119.0,0,0,0,0,0
+118,3,stage3,0,Memory Safety (BigVul),119.0,0,0,0,0,1
+118,4,stage4,0,Memory Safety (BigVul),119.0,0,0,0,0,1
+119,1,stage1,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+119,2,stage2,0,Memory Safety (BigVul),119.0,0,1,0,0,0
+119,3,stage3,0,Memory Safety (BigVul),119.0,1,0,0,1,1
+119,4,stage4,0,Memory Safety (BigVul),119.0,1,0,0,1,0
+120,1,stage1,1,Injection,78.0,1,0,1,1,1
+120,2,stage2,1,Injection,78.0,1,0,1,1,1
+120,3,stage3,1,Injection,78.0,0,0,1,1,1
+120,4,stage4,1,Injection,78.0,0,0,1,1,1
+121,1,stage1,1,Injection,78.0,1,0,1,1,1
+121,2,stage2,1,Injection,78.0,1,0,0,0,1
+121,3,stage3,1,Injection,78.0,0,0,1,1,1
+121,4,stage4,1,Injection,78.0,0,0,1,1,1
+122,1,stage1,1,Injection,78.0,1,0,1,1,1
+122,2,stage2,1,Injection,78.0,1,0,0,1,1
+122,3,stage3,1,Injection,78.0,1,0,1,1,1
+122,4,stage4,1,Injection,78.0,1,0,1,1,1
+123,1,stage1,1,Injection,78.0,1,0,1,1,1
+123,2,stage2,1,Injection,78.0,1,0,1,1,1
+123,3,stage3,1,Injection,78.0,1,0,1,1,1
+123,4,stage4,1,Injection,78.0,1,0,1,1,1
+124,1,stage1,1,Injection,78.0,1,0,1,1,1
+124,2,stage2,1,Injection,78.0,1,0,1,1,1
+124,3,stage3,1,Injection,78.0,1,0,1,1,1
+124,4,stage4,1,Injection,78.0,1,0,1,1,1
+125,1,stage1,1,Injection,78.0,1,0,1,1,1
+125,2,stage2,1,Injection,78.0,1,0,0,1,1
+125,3,stage3,1,Injection,78.0,0,0,1,1,1
+125,4,stage4,1,Injection,78.0,0,0,1,1,1
+126,1,stage1,1,Injection,78.0,1,0,1,1,1
+126,2,stage2,1,Injection,78.0,1,0,1,1,1
+126,3,stage3,1,Injection,78.0,0,0,1,1,1
+126,4,stage4,1,Injection,78.0,0,0,1,1,1
+127,1,stage1,1,Injection,78.0,1,0,1,1,1
+127,2,stage2,1,Injection,78.0,1,1,1,1,1
+127,3,stage3,1,Injection,78.0,0,0,1,1,1
+127,4,stage4,1,Injection,78.0,0,0,1,1,1
+128,1,stage1,1,Injection,78.0,1,0,0,1,1
+128,2,stage2,1,Injection,78.0,1,1,1,1,1
+128,3,stage3,1,Injection,78.0,0,0,1,1,1
+128,4,stage4,1,Injection,78.0,0,0,1,1,1
+129,1,stage1,1,Injection,78.0,1,0,0,1,1
+129,2,stage2,1,Injection,78.0,1,0,1,1,1
+129,3,stage3,1,Injection,78.0,0,0,1,1,1
+129,4,stage4,1,Injection,78.0,0,0,1,1,1
+130,1,stage1,1,Injection,78.0,1,0,1,1,1
+130,2,stage2,1,Injection,78.0,1,0,1,1,1
+130,3,stage3,1,Injection,78.0,1,0,1,1,1
+130,4,stage4,1,Injection,78.0,1,0,1,1,1
+131,1,stage1,1,Injection,78.0,1,0,1,1,1
+131,2,stage2,1,Injection,78.0,1,1,1,1,1
+131,3,stage3,1,Injection,78.0,0,0,1,1,1
+131,4,stage4,1,Injection,78.0,0,0,1,1,1
+132,1,stage1,1,Injection,78.0,1,0,1,1,1
+132,2,stage2,1,Injection,78.0,1,1,1,1,1
+132,3,stage3,1,Injection,78.0,0,0,1,1,1
+132,4,stage4,1,Injection,78.0,0,0,1,1,1
+133,1,stage1,1,Injection,78.0,1,0,1,1,1
+133,2,stage2,1,Injection,78.0,1,1,1,1,1
+133,3,stage3,1,Injection,78.0,0,0,1,1,1
+133,4,stage4,1,Injection,78.0,0,0,1,1,1
+134,1,stage1,1,Injection,78.0,1,0,1,1,1
+134,2,stage2,1,Injection,78.0,1,0,1,1,1
+134,3,stage3,1,Injection,78.0,0,0,1,1,1
+134,4,stage4,1,Injection,78.0,0,0,1,1,1
+135,1,stage1,1,Injection,78.0,1,0,1,1,1
+135,2,stage2,1,Injection,78.0,1,0,1,1,1
+135,3,stage3,1,Injection,78.0,1,0,1,1,1
+135,4,stage4,1,Injection,78.0,1,0,1,1,1
+136,1,stage1,1,Injection,78.0,1,0,1,1,1
+136,2,stage2,1,Injection,78.0,1,0,0,1,1
+136,3,stage3,1,Injection,78.0,0,0,1,1,1
+136,4,stage4,1,Injection,78.0,0,0,1,1,1
+137,1,stage1,1,Injection,78.0,1,0,1,1,1
+137,2,stage2,1,Injection,78.0,1,0,1,1,1
+137,3,stage3,1,Injection,78.0,0,0,1,1,1
+137,4,stage4,1,Injection,78.0,1,0,1,1,1
+138,1,stage1,1,Injection,78.0,1,0,1,1,1
+138,2,stage2,1,Injection,78.0,1,0,1,1,1
+138,3,stage3,1,Injection,78.0,1,0,1,1,1
+138,4,stage4,1,Injection,78.0,1,0,1,1,1
+139,1,stage1,1,Injection,78.0,1,0,1,1,1
+139,2,stage2,1,Injection,78.0,1,0,1,1,1
+139,3,stage3,1,Injection,78.0,0,0,1,1,1
+139,4,stage4,1,Injection,78.0,0,0,1,1,1
+140,1,stage1,1,Injection,78.0,1,0,1,1,1
+140,2,stage2,1,Injection,78.0,1,0,1,1,1
+140,3,stage3,1,Injection,78.0,0,0,1,1,1
+140,4,stage4,1,Injection,78.0,1,0,1,1,1
+141,1,stage1,1,Injection,78.0,1,0,1,1,1
+141,2,stage2,1,Injection,78.0,1,0,1,1,1
+141,3,stage3,1,Injection,78.0,0,0,1,1,1
+141,4,stage4,1,Injection,78.0,0,0,1,1,1
+142,1,stage1,1,Injection,78.0,1,0,1,1,1
+142,2,stage2,1,Injection,78.0,1,0,1,1,1
+142,3,stage3,1,Injection,78.0,1,0,1,1,1
+142,4,stage4,1,Injection,78.0,1,0,1,1,1
+143,1,stage1,1,Injection,78.0,1,0,1,1,1
+143,2,stage2,1,Injection,78.0,1,0,1,1,1
+143,3,stage3,1,Injection,78.0,0,0,1,1,1
+143,4,stage4,1,Injection,78.0,0,0,1,1,1
+144,1,stage1,1,Injection,78.0,1,0,1,1,1
+144,2,stage2,1,Injection,78.0,1,0,0,1,1
+144,3,stage3,1,Injection,78.0,0,0,1,1,1
+144,4,stage4,1,Injection,78.0,0,0,1,1,1
+145,1,stage1,1,Injection,78.0,1,0,1,1,1
+145,2,stage2,1,Injection,78.0,1,0,1,1,1
+145,3,stage3,1,Injection,78.0,0,0,1,1,1
+145,4,stage4,1,Injection,78.0,0,0,1,1,1
+146,1,stage1,1,Injection,78.0,1,0,1,1,1
+146,2,stage2,1,Injection,78.0,1,1,1,1,1
+146,3,stage3,1,Injection,78.0,0,0,1,1,1
+146,4,stage4,1,Injection,78.0,0,0,1,1,1
+147,1,stage1,1,Injection,78.0,1,0,1,1,1
+147,2,stage2,1,Injection,78.0,1,0,1,1,1
+147,3,stage3,1,Injection,78.0,1,0,1,1,1
+147,4,stage4,1,Injection,78.0,1,0,1,1,1
+148,1,stage1,1,Injection,78.0,1,0,1,1,1
+148,2,stage2,1,Injection,78.0,1,1,1,1,0
+148,3,stage3,1,Injection,78.0,1,0,1,1,1
+148,4,stage4,1,Injection,78.0,1,0,1,1,1
+149,1,stage1,1,Injection,78.0,1,0,1,1,1
+149,2,stage2,1,Injection,78.0,1,1,1,1,1
+149,3,stage3,1,Injection,78.0,1,0,1,1,1
+149,4,stage4,1,Injection,78.0,1,0,1,1,1
+150,1,stage1,1,Injection,78.0,1,0,0,1,1
+150,2,stage2,1,Injection,78.0,1,1,1,1,1
+150,3,stage3,1,Injection,78.0,0,0,1,1,1
+150,4,stage4,1,Injection,78.0,0,0,1,1,1
+151,1,stage1,1,Injection,78.0,1,0,1,1,1
+151,2,stage2,1,Injection,78.0,1,0,0,1,1
+151,3,stage3,1,Injection,78.0,0,0,1,1,1
+151,4,stage4,1,Injection,78.0,0,0,1,1,1
+152,1,stage1,1,Injection,78.0,1,0,1,1,1
+152,2,stage2,1,Injection,78.0,1,0,1,1,1
+152,3,stage3,1,Injection,78.0,0,0,1,1,1
+152,4,stage4,1,Injection,78.0,0,0,1,1,1
+153,1,stage1,1,Injection,78.0,1,0,1,1,1
+153,2,stage2,1,Injection,78.0,1,0,1,1,1
+153,3,stage3,1,Injection,78.0,1,0,1,1,1
+153,4,stage4,1,Injection,78.0,1,0,1,1,1
+154,1,stage1,1,Injection,78.0,1,0,1,1,1
+154,2,stage2,1,Injection,78.0,1,0,1,1,1
+154,3,stage3,1,Injection,78.0,1,0,1,1,1
+154,4,stage4,1,Injection,78.0,1,0,1,1,1
+155,1,stage1,1,Injection,78.0,1,0,1,1,1
+155,2,stage2,1,Injection,78.0,1,1,1,1,1
+155,3,stage3,1,Injection,78.0,1,0,1,1,1
+155,4,stage4,1,Injection,78.0,0,0,1,1,1
+156,1,stage1,1,Injection,78.0,1,0,1,1,1
+156,2,stage2,1,Injection,78.0,1,1,1,1,1
+156,3,stage3,1,Injection,78.0,0,0,1,1,1
+156,4,stage4,1,Injection,78.0,0,0,1,1,1
+157,1,stage1,1,Injection,78.0,1,0,1,1,1
+157,2,stage2,1,Injection,78.0,1,1,1,1,1
+157,3,stage3,1,Injection,78.0,0,0,1,1,1
+157,4,stage4,1,Injection,78.0,0,0,1,1,1
+158,1,stage1,1,Injection,78.0,1,0,1,1,1
+158,2,stage2,1,Injection,78.0,1,0,1,1,1
+158,3,stage3,1,Injection,78.0,0,0,1,1,1
+158,4,stage4,1,Injection,78.0,0,0,1,1,1
+159,1,stage1,1,Injection,78.0,1,0,1,1,1
+159,2,stage2,1,Injection,78.0,1,0,1,1,1
+159,3,stage3,1,Injection,78.0,1,0,1,1,1
+159,4,stage4,1,Injection,78.0,0,0,1,1,1
+160,1,stage1,0,Injection,78.0,1,0,0,1,1
+160,2,stage2,0,Injection,78.0,1,1,0,0,1
+160,3,stage3,0,Injection,78.0,1,0,0,0,1
+160,4,stage4,0,Injection,78.0,1,0,0,1,1
+161,1,stage1,0,Injection,78.0,1,0,0,0,1
+161,2,stage2,0,Injection,78.0,1,0,0,0,1
+161,3,stage3,0,Injection,78.0,1,0,0,1,1
+161,4,stage4,0,Injection,78.0,0,0,0,1,1
+162,1,stage1,0,Injection,78.0,1,0,1,1,1
+162,2,stage2,0,Injection,78.0,1,1,1,1,1
+162,3,stage3,0,Injection,78.0,1,0,1,1,1
+162,4,stage4,0,Injection,78.0,1,0,0,1,1
+163,1,stage1,0,Injection,78.0,1,0,0,1,1
+163,2,stage2,0,Injection,78.0,1,1,0,0,1
+163,3,stage3,0,Injection,78.0,1,0,0,1,1
+163,4,stage4,0,Injection,78.0,1,0,0,1,1
+164,1,stage1,0,Injection,78.0,1,0,0,1,1
+164,2,stage2,0,Injection,78.0,1,1,0,0,1
+164,3,stage3,0,Injection,78.0,1,0,0,1,1
+164,4,stage4,0,Injection,78.0,0,0,0,1,1
+165,1,stage1,0,Injection,78.0,1,0,0,1,1
+165,2,stage2,0,Injection,78.0,1,0,0,1,1
+165,3,stage3,0,Injection,78.0,1,0,0,1,1
+165,4,stage4,0,Injection,78.0,1,0,0,1,1
+166,1,stage1,0,Injection,78.0,0,0,0,1,1
+166,2,stage2,0,Injection,78.0,1,0,0,0,0
+166,3,stage3,0,Injection,78.0,1,0,0,1,1
+166,4,stage4,0,Injection,78.0,1,0,0,1,1
+167,1,stage1,0,Injection,78.0,1,0,0,1,1
+167,2,stage2,0,Injection,78.0,0,0,0,0,0
+167,3,stage3,0,Injection,78.0,1,0,0,1,1
+167,4,stage4,0,Injection,78.0,0,0,0,1,1
+168,1,stage1,0,Injection,78.0,1,0,1,1,1
+168,2,stage2,0,Injection,78.0,1,0,1,1,1
+168,3,stage3,0,Injection,78.0,1,0,0,1,1
+168,4,stage4,0,Injection,78.0,0,0,0,1,1
+169,1,stage1,0,Injection,78.0,1,0,0,1,1
+169,2,stage2,0,Injection,78.0,1,1,0,0,1
+169,3,stage3,0,Injection,78.0,1,0,0,1,1
+169,4,stage4,0,Injection,78.0,1,0,0,1,1
+170,1,stage1,0,Injection,78.0,1,0,0,1,1
+170,2,stage2,0,Injection,78.0,1,1,0,0,1
+170,3,stage3,0,Injection,78.0,1,0,0,1,1
+170,4,stage4,0,Injection,78.0,1,0,0,1,1
+171,1,stage1,0,Injection,78.0,1,0,0,1,1
+171,2,stage2,0,Injection,78.0,1,0,0,0,1
+171,3,stage3,0,Injection,78.0,1,0,0,1,0
+171,4,stage4,0,Injection,78.0,0,0,0,1,1
+172,1,stage1,0,Injection,78.0,1,0,0,1,1
+172,2,stage2,0,Injection,78.0,0,1,0,0,0
+172,3,stage3,0,Injection,78.0,1,0,0,1,1
+172,4,stage4,0,Injection,78.0,1,0,0,1,1
+173,1,stage1,0,Injection,78.0,1,0,0,1,1
+173,2,stage2,0,Injection,78.0,1,0,1,1,1
+173,3,stage3,0,Injection,78.0,1,0,1,1,1
+173,4,stage4,0,Injection,78.0,1,0,0,1,1
+174,1,stage1,0,Injection,78.0,1,0,0,1,1
+174,2,stage2,0,Injection,78.0,1,0,0,1,1
+174,3,stage3,0,Injection,78.0,1,0,0,1,1
+174,4,stage4,0,Injection,78.0,1,0,0,1,1
+175,1,stage1,0,Injection,78.0,1,0,0,0,1
+175,2,stage2,0,Injection,78.0,1,0,0,0,1
+175,3,stage3,0,Injection,78.0,1,0,0,1,1
+175,4,stage4,0,Injection,78.0,0,0,0,1,1
+176,1,stage1,0,Injection,78.0,1,0,0,1,1
+176,2,stage2,0,Injection,78.0,1,0,0,0,1
+176,3,stage3,0,Injection,78.0,1,0,0,1,1
+176,4,stage4,0,Injection,78.0,1,0,0,1,1
+177,1,stage1,0,Injection,78.0,1,0,0,1,1
+177,2,stage2,0,Injection,78.0,0,0,0,0,1
+177,3,stage3,0,Injection,78.0,1,0,0,1,1
+177,4,stage4,0,Injection,78.0,1,0,0,1,1
+178,1,stage1,0,Injection,78.0,1,0,0,1,1
+178,2,stage2,0,Injection,78.0,1,0,1,1,1
+178,3,stage3,0,Injection,78.0,1,0,0,1,1
+178,4,stage4,0,Injection,78.0,0,0,0,1,1
+179,1,stage1,0,Injection,78.0,1,0,0,1,1
+179,2,stage2,0,Injection,78.0,1,1,0,0,1
+179,3,stage3,0,Injection,78.0,1,0,0,1,1
+179,4,stage4,0,Injection,78.0,1,0,0,1,1
+180,1,stage1,0,Injection,78.0,1,0,0,0,1
+180,2,stage2,0,Injection,78.0,1,0,0,1,1
+180,3,stage3,0,Injection,78.0,1,0,0,1,1
+180,4,stage4,0,Injection,78.0,1,0,0,1,1
+181,1,stage1,0,Injection,78.0,1,0,0,1,1
+181,2,stage2,0,Injection,78.0,1,1,0,0,1
+181,3,stage3,0,Injection,78.0,1,0,0,1,1
+181,4,stage4,0,Injection,78.0,1,0,0,1,1
+182,1,stage1,0,Injection,78.0,1,0,0,1,1
+182,2,stage2,0,Injection,78.0,1,0,0,1,1
+182,3,stage3,0,Injection,78.0,1,0,0,1,1
+182,4,stage4,0,Injection,78.0,0,0,0,1,1
+183,1,stage1,0,Injection,78.0,1,0,0,1,0
+183,2,stage2,0,Injection,78.0,1,0,0,1,1
+183,3,stage3,0,Injection,78.0,1,0,0,1,1
+183,4,stage4,0,Injection,78.0,1,0,0,1,1
+184,1,stage1,0,Injection,78.0,1,0,0,1,1
+184,2,stage2,0,Injection,78.0,1,0,0,0,0
+184,3,stage3,0,Injection,78.0,1,0,0,1,1
+184,4,stage4,0,Injection,78.0,1,0,0,1,1
+185,1,stage1,0,Injection,78.0,1,0,0,1,1
+185,2,stage2,0,Injection,78.0,1,0,0,0,1
+185,3,stage3,0,Injection,78.0,1,0,0,1,1
+185,4,stage4,0,Injection,78.0,1,0,0,1,1
+186,1,stage1,0,Injection,78.0,1,0,0,1,1
+186,2,stage2,0,Injection,78.0,1,0,1,1,1
+186,3,stage3,0,Injection,78.0,1,0,0,1,1
+186,4,stage4,0,Injection,78.0,0,0,0,1,1
+187,1,stage1,0,Injection,78.0,1,0,0,1,1
+187,2,stage2,0,Injection,78.0,1,0,1,1,1
+187,3,stage3,0,Injection,78.0,1,0,0,1,1
+187,4,stage4,0,Injection,78.0,1,0,0,1,1
+188,1,stage1,0,Injection,78.0,1,0,0,1,1
+188,2,stage2,0,Injection,78.0,1,0,1,1,1
+188,3,stage3,0,Injection,78.0,1,0,0,1,1
+188,4,stage4,0,Injection,78.0,1,0,0,1,1
+189,1,stage1,0,Injection,78.0,1,0,0,1,1
+189,2,stage2,0,Injection,78.0,1,0,0,1,1
+189,3,stage3,0,Injection,78.0,1,0,1,1,1
+189,4,stage4,0,Injection,78.0,0,0,0,1,1
+190,1,stage1,0,Injection,78.0,1,0,0,1,1
+190,2,stage2,0,Injection,78.0,1,0,1,1,1
+190,3,stage3,0,Injection,78.0,1,0,0,1,1
+190,4,stage4,0,Injection,78.0,1,0,0,1,1
+191,1,stage1,0,Injection,78.0,1,0,0,0,1
+191,2,stage2,0,Injection,78.0,1,0,0,1,0
+191,3,stage3,0,Injection,78.0,1,0,0,1,1
+191,4,stage4,0,Injection,78.0,1,0,0,1,1
+192,1,stage1,0,Injection,78.0,1,0,0,1,1
+192,2,stage2,0,Injection,78.0,0,1,0,0,0
+192,3,stage3,0,Injection,78.0,1,0,0,1,1
+192,4,stage4,0,Injection,78.0,1,0,0,1,1
+193,1,stage1,0,Injection,78.0,1,0,0,1,1
+193,2,stage2,0,Injection,78.0,1,1,1,1,1
+193,3,stage3,0,Injection,78.0,1,0,0,1,1
+193,4,stage4,0,Injection,78.0,0,0,0,1,1
+194,1,stage1,0,Injection,78.0,1,0,0,1,1
+194,2,stage2,0,Injection,78.0,0,0,0,0,0
+194,3,stage3,0,Injection,78.0,1,0,0,1,1
+194,4,stage4,0,Injection,78.0,1,0,0,1,1
+195,1,stage1,0,Injection,78.0,0,0,0,1,1
+195,2,stage2,0,Injection,78.0,1,1,0,0,1
+195,3,stage3,0,Injection,78.0,1,0,0,1,1
+195,4,stage4,0,Injection,78.0,0,0,0,1,1
+196,1,stage1,0,Injection,78.0,1,0,0,0,1
+196,2,stage2,0,Injection,78.0,1,1,0,0,1
+196,3,stage3,0,Injection,78.0,1,0,0,1,1
+196,4,stage4,0,Injection,78.0,1,0,0,1,1
+197,1,stage1,0,Injection,78.0,1,0,0,1,1
+197,2,stage2,0,Injection,78.0,1,0,0,0,1
+197,3,stage3,0,Injection,78.0,1,0,0,1,1
+197,4,stage4,0,Injection,78.0,1,0,0,1,1
+198,1,stage1,0,Injection,78.0,0,0,0,1,0
+198,2,stage2,0,Injection,78.0,1,0,0,0,1
+198,3,stage3,0,Injection,78.0,1,0,0,1,1
+198,4,stage4,0,Injection,78.0,1,0,0,1,1
+199,1,stage1,0,Injection,78.0,1,0,0,1,1
+199,2,stage2,0,Injection,78.0,1,0,0,1,1
+199,3,stage3,0,Injection,78.0,1,0,0,1,1
+199,4,stage4,0,Injection,78.0,1,0,0,1,1
+200,1,stage1,1,Numeric Errors,190.0,1,0,0,1,1
+200,2,stage2,1,Numeric Errors,190.0,1,1,1,1,1
+200,3,stage3,1,Numeric Errors,190.0,0,1,0,1,1
+200,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+201,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+201,2,stage2,1,Numeric Errors,191.0,1,0,1,1,1
+201,3,stage3,1,Numeric Errors,191.0,0,1,1,1,1
+201,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+202,1,stage1,1,Numeric Errors,369.0,1,0,1,1,0
+202,2,stage2,1,Numeric Errors,369.0,1,0,0,0,1
+202,3,stage3,1,Numeric Errors,369.0,0,1,0,1,1
+202,4,stage4,1,Numeric Errors,369.0,0,0,1,1,1
+203,1,stage1,1,Numeric Errors,190.0,1,0,0,0,1
+203,2,stage2,1,Numeric Errors,190.0,1,1,0,0,1
+203,3,stage3,1,Numeric Errors,190.0,0,0,0,1,1
+203,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+204,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+204,2,stage2,1,Numeric Errors,190.0,1,1,1,1,1
+204,3,stage3,1,Numeric Errors,190.0,0,0,1,1,1
+204,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+205,1,stage1,1,Numeric Errors,191.0,1,0,0,1,1
+205,2,stage2,1,Numeric Errors,191.0,1,1,0,1,1
+205,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+205,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+206,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+206,2,stage2,1,Numeric Errors,191.0,1,0,1,0,1
+206,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+206,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+207,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+207,2,stage2,1,Numeric Errors,191.0,1,0,1,1,1
+207,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+207,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+208,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+208,2,stage2,1,Numeric Errors,190.0,1,1,0,1,1
+208,3,stage3,1,Numeric Errors,190.0,0,0,0,1,1
+208,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+209,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+209,2,stage2,1,Numeric Errors,191.0,1,0,1,1,1
+209,3,stage3,1,Numeric Errors,191.0,0,0,0,1,1
+209,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+210,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+210,2,stage2,1,Numeric Errors,190.0,1,1,1,1,1
+210,3,stage3,1,Numeric Errors,190.0,0,0,1,1,1
+210,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+211,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+211,2,stage2,1,Numeric Errors,191.0,0,0,1,1,1
+211,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+211,4,stage4,1,Numeric Errors,191.0,0,0,0,1,1
+212,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+212,2,stage2,1,Numeric Errors,191.0,1,0,1,1,1
+212,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+212,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+213,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+213,2,stage2,1,Numeric Errors,190.0,1,0,0,1,1
+213,3,stage3,1,Numeric Errors,190.0,0,0,1,1,1
+213,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+214,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+214,2,stage2,1,Numeric Errors,190.0,1,1,1,1,1
+214,3,stage3,1,Numeric Errors,190.0,0,1,1,1,1
+214,4,stage4,1,Numeric Errors,190.0,1,0,1,1,1
+215,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+215,2,stage2,1,Numeric Errors,190.0,1,1,1,1,1
+215,3,stage3,1,Numeric Errors,190.0,0,1,0,1,1
+215,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+216,1,stage1,1,Numeric Errors,369.0,1,0,1,1,1
+216,2,stage2,1,Numeric Errors,369.0,1,0,0,1,0
+216,3,stage3,1,Numeric Errors,369.0,0,1,1,1,1
+216,4,stage4,1,Numeric Errors,369.0,0,0,1,1,1
+217,1,stage1,1,Numeric Errors,369.0,1,0,1,1,1
+217,2,stage2,1,Numeric Errors,369.0,1,0,1,1,1
+217,3,stage3,1,Numeric Errors,369.0,1,0,1,1,0
+217,4,stage4,1,Numeric Errors,369.0,1,0,1,1,1
+218,1,stage1,1,Numeric Errors,191.0,1,0,0,1,1
+218,2,stage2,1,Numeric Errors,191.0,1,0,0,1,1
+218,3,stage3,1,Numeric Errors,191.0,0,0,0,1,0
+218,4,stage4,1,Numeric Errors,191.0,0,1,1,1,1
+219,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+219,2,stage2,1,Numeric Errors,190.0,1,0,0,1,0
+219,3,stage3,1,Numeric Errors,190.0,1,1,1,1,1
+219,4,stage4,1,Numeric Errors,190.0,1,1,1,1,1
+220,1,stage1,1,Numeric Errors,190.0,1,0,0,1,1
+220,2,stage2,1,Numeric Errors,190.0,1,0,1,1,1
+220,3,stage3,1,Numeric Errors,190.0,1,0,1,1,1
+220,4,stage4,1,Numeric Errors,190.0,1,1,1,1,1
+221,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+221,2,stage2,1,Numeric Errors,191.0,1,0,1,1,1
+221,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+221,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+222,1,stage1,1,Numeric Errors,191.0,1,0,0,1,1
+222,2,stage2,1,Numeric Errors,191.0,1,0,1,1,1
+222,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+222,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+223,1,stage1,1,Numeric Errors,191.0,1,0,1,1,1
+223,2,stage2,1,Numeric Errors,191.0,1,1,0,0,1
+223,3,stage3,1,Numeric Errors,191.0,0,0,1,1,1
+223,4,stage4,1,Numeric Errors,191.0,0,0,1,1,1
+224,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+224,2,stage2,1,Numeric Errors,190.0,1,0,1,1,1
+224,3,stage3,1,Numeric Errors,190.0,0,1,0,1,1
+224,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+225,1,stage1,1,Numeric Errors,369.0,1,0,1,1,1
+225,2,stage2,1,Numeric Errors,369.0,1,1,0,1,1
+225,3,stage3,1,Numeric Errors,369.0,0,1,0,1,1
+225,4,stage4,1,Numeric Errors,369.0,0,0,1,1,1
+226,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+226,2,stage2,1,Numeric Errors,190.0,1,0,1,1,1
+226,3,stage3,1,Numeric Errors,190.0,0,0,1,1,1
+226,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+227,1,stage1,1,Numeric Errors,369.0,1,0,1,1,1
+227,2,stage2,1,Numeric Errors,369.0,1,0,1,1,1
+227,3,stage3,1,Numeric Errors,369.0,0,0,1,1,1
+227,4,stage4,1,Numeric Errors,369.0,0,0,1,1,1
+228,1,stage1,1,Numeric Errors,190.0,1,0,1,1,1
+228,2,stage2,1,Numeric Errors,190.0,1,1,0,0,1
+228,3,stage3,1,Numeric Errors,190.0,1,0,1,1,1
+228,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+229,1,stage1,1,Numeric Errors,190.0,1,0,0,1,1
+229,2,stage2,1,Numeric Errors,190.0,1,0,0,1,0
+229,3,stage3,1,Numeric Errors,190.0,0,1,0,1,1
+229,4,stage4,1,Numeric Errors,190.0,0,0,1,1,1
+230,1,stage1,0,Numeric Errors,190.0,1,0,0,0,1
+230,2,stage2,0,Numeric Errors,190.0,1,1,0,0,1
+230,3,stage3,0,Numeric Errors,190.0,1,1,0,1,1
+230,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+231,1,stage1,0,Numeric Errors,191.0,1,0,0,1,1
+231,2,stage2,0,Numeric Errors,191.0,0,0,0,1,1
+231,3,stage3,0,Numeric Errors,191.0,1,0,0,1,1
+231,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+232,1,stage1,0,Numeric Errors,369.0,1,0,0,0,1
+232,2,stage2,0,Numeric Errors,369.0,0,0,0,0,1
+232,3,stage3,0,Numeric Errors,369.0,1,1,0,0,1
+232,4,stage4,0,Numeric Errors,369.0,1,0,0,1,1
+233,1,stage1,0,Numeric Errors,190.0,1,0,1,1,1
+233,2,stage2,0,Numeric Errors,190.0,1,0,1,1,1
+233,3,stage3,0,Numeric Errors,190.0,1,1,0,1,1
+233,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+234,1,stage1,0,Numeric Errors,190.0,1,0,0,0,0
+234,2,stage2,0,Numeric Errors,190.0,0,1,0,0,1
+234,3,stage3,0,Numeric Errors,190.0,1,1,1,1,1
+234,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+235,1,stage1,0,Numeric Errors,191.0,1,0,0,0,1
+235,2,stage2,0,Numeric Errors,191.0,1,1,0,0,0
+235,3,stage3,0,Numeric Errors,191.0,1,0,0,1,1
+235,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+236,1,stage1,0,Numeric Errors,191.0,1,0,0,1,1
+236,2,stage2,0,Numeric Errors,191.0,1,0,1,1,1
+236,3,stage3,0,Numeric Errors,191.0,1,0,0,1,1
+236,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+237,1,stage1,0,Numeric Errors,191.0,1,0,0,1,1
+237,2,stage2,0,Numeric Errors,191.0,1,1,1,0,1
+237,3,stage3,0,Numeric Errors,191.0,1,0,0,1,1
+237,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+238,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+238,2,stage2,0,Numeric Errors,190.0,1,0,1,1,1
+238,3,stage3,0,Numeric Errors,190.0,1,1,0,1,1
+238,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+239,1,stage1,0,Numeric Errors,191.0,1,0,0,0,1
+239,2,stage2,0,Numeric Errors,191.0,1,0,0,0,1
+239,3,stage3,0,Numeric Errors,191.0,1,0,0,0,1
+239,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+240,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+240,2,stage2,0,Numeric Errors,190.0,1,1,0,1,1
+240,3,stage3,0,Numeric Errors,190.0,1,1,1,1,1
+240,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+241,1,stage1,0,Numeric Errors,191.0,1,0,0,1,1
+241,2,stage2,0,Numeric Errors,191.0,1,1,0,1,1
+241,3,stage3,0,Numeric Errors,191.0,1,0,0,1,0
+241,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+242,1,stage1,0,Numeric Errors,191.0,1,0,0,0,1
+242,2,stage2,0,Numeric Errors,191.0,1,1,0,0,1
+242,3,stage3,0,Numeric Errors,191.0,1,0,0,1,1
+242,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+243,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+243,2,stage2,0,Numeric Errors,190.0,1,0,1,1,1
+243,3,stage3,0,Numeric Errors,190.0,1,0,0,1,1
+243,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+244,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+244,2,stage2,0,Numeric Errors,190.0,1,1,1,1,1
+244,3,stage3,0,Numeric Errors,190.0,1,0,1,1,1
+244,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+245,1,stage1,0,Numeric Errors,190.0,1,0,0,0,1
+245,2,stage2,0,Numeric Errors,190.0,1,0,1,1,1
+245,3,stage3,0,Numeric Errors,190.0,1,1,0,1,1
+245,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+246,1,stage1,0,Numeric Errors,369.0,1,0,0,0,1
+246,2,stage2,0,Numeric Errors,369.0,1,1,0,0,1
+246,3,stage3,0,Numeric Errors,369.0,1,1,0,0,1
+246,4,stage4,0,Numeric Errors,369.0,1,0,0,1,1
+247,1,stage1,0,Numeric Errors,369.0,1,0,0,1,1
+247,2,stage2,0,Numeric Errors,369.0,1,0,1,1,1
+247,3,stage3,0,Numeric Errors,369.0,1,0,0,1,1
+247,4,stage4,0,Numeric Errors,369.0,1,0,0,1,1
+248,1,stage1,0,Numeric Errors,191.0,1,0,0,1,1
+248,2,stage2,0,Numeric Errors,191.0,1,0,0,1,1
+248,3,stage3,0,Numeric Errors,191.0,1,0,0,1,1
+248,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+249,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+249,2,stage2,0,Numeric Errors,190.0,1,0,0,0,0
+249,3,stage3,0,Numeric Errors,190.0,1,1,1,1,1
+249,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+250,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+250,2,stage2,0,Numeric Errors,190.0,1,1,0,0,1
+250,3,stage3,0,Numeric Errors,190.0,1,0,1,1,1
+250,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+251,1,stage1,0,Numeric Errors,191.0,1,0,0,1,1
+251,2,stage2,0,Numeric Errors,191.0,1,0,1,1,1
+251,3,stage3,0,Numeric Errors,191.0,1,0,0,1,0
+251,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+252,1,stage1,0,Numeric Errors,191.0,1,0,0,1,1
+252,2,stage2,0,Numeric Errors,191.0,1,1,1,1,1
+252,3,stage3,0,Numeric Errors,191.0,1,0,0,1,1
+252,4,stage4,0,Numeric Errors,191.0,1,0,0,1,1
+253,1,stage1,0,Numeric Errors,191.0,1,0,0,0,0
+253,2,stage2,0,Numeric Errors,191.0,0,0,0,0,0
+253,3,stage3,0,Numeric Errors,191.0,1,1,0,1,1
+253,4,stage4,0,Numeric Errors,191.0,1,0,0,1,0
+254,1,stage1,0,Numeric Errors,190.0,1,0,0,0,0
+254,2,stage2,0,Numeric Errors,190.0,1,1,0,0,0
+254,3,stage3,0,Numeric Errors,190.0,1,0,0,1,1
+254,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+255,1,stage1,0,Numeric Errors,369.0,1,0,0,0,1
+255,2,stage2,0,Numeric Errors,369.0,1,1,1,1,1
+255,3,stage3,0,Numeric Errors,369.0,1,1,0,1,1
+255,4,stage4,0,Numeric Errors,369.0,1,0,0,1,1
+256,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+256,2,stage2,0,Numeric Errors,190.0,1,1,1,1,1
+256,3,stage3,0,Numeric Errors,190.0,1,0,0,1,1
+256,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+257,1,stage1,0,Numeric Errors,369.0,1,0,0,0,1
+257,2,stage2,0,Numeric Errors,369.0,1,0,0,0,0
+257,3,stage3,0,Numeric Errors,369.0,1,1,0,1,1
+257,4,stage4,0,Numeric Errors,369.0,1,0,0,1,1
+258,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+258,2,stage2,0,Numeric Errors,190.0,1,0,1,1,0
+258,3,stage3,0,Numeric Errors,190.0,1,1,0,1,1
+258,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+259,1,stage1,0,Numeric Errors,190.0,1,0,0,1,1
+259,2,stage2,0,Numeric Errors,190.0,1,1,0,0,1
+259,3,stage3,0,Numeric Errors,190.0,1,1,0,1,1
+259,4,stage4,0,Numeric Errors,190.0,1,0,0,1,1
+260,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+260,2,stage2,1,Resource Misuse,416.0,1,1,0,0,0
+260,3,stage3,1,Resource Misuse,416.0,1,0,0,0,1
+260,4,stage4,1,Resource Misuse,416.0,1,0,0,0,0
+261,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+261,2,stage2,1,Resource Misuse,416.0,1,1,0,0,0
+261,3,stage3,1,Resource Misuse,416.0,1,0,0,1,1
+261,4,stage4,1,Resource Misuse,416.0,1,0,0,0,0
+262,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+262,2,stage2,1,Resource Misuse,416.0,0,1,0,0,0
+262,3,stage3,1,Resource Misuse,416.0,1,0,0,0,0
+262,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+263,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+263,2,stage2,1,Resource Misuse,416.0,1,0,0,0,0
+263,3,stage3,1,Resource Misuse,416.0,0,0,0,1,1
+263,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+264,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+264,2,stage2,1,Resource Misuse,416.0,0,1,0,0,0
+264,3,stage3,1,Resource Misuse,416.0,0,0,0,0,1
+264,4,stage4,1,Resource Misuse,416.0,0,0,0,0,0
+265,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+265,2,stage2,1,Resource Misuse,416.0,0,0,0,0,0
+265,3,stage3,1,Resource Misuse,416.0,0,0,0,0,1
+265,4,stage4,1,Resource Misuse,416.0,0,0,0,0,0
+266,1,stage1,1,Resource Misuse,416.0,0,0,0,0,0
+266,2,stage2,1,Resource Misuse,416.0,0,0,0,1,0
+266,3,stage3,1,Resource Misuse,416.0,0,0,0,1,0
+266,4,stage4,1,Resource Misuse,416.0,0,0,0,0,0
+267,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+267,2,stage2,1,Resource Misuse,416.0,1,0,0,1,0
+267,3,stage3,1,Resource Misuse,416.0,1,0,0,1,0
+267,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+268,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+268,2,stage2,1,Resource Misuse,416.0,0,1,0,0,1
+268,3,stage3,1,Resource Misuse,416.0,0,1,0,0,0
+268,4,stage4,1,Resource Misuse,416.0,0,0,0,0,0
+269,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+269,2,stage2,1,Resource Misuse,416.0,1,1,0,0,1
+269,3,stage3,1,Resource Misuse,416.0,0,0,0,0,0
+269,4,stage4,1,Resource Misuse,416.0,1,0,0,0,0
+270,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+270,2,stage2,1,Resource Misuse,416.0,0,1,0,0,0
+270,3,stage3,1,Resource Misuse,416.0,0,0,0,0,1
+270,4,stage4,1,Resource Misuse,416.0,0,0,0,0,0
+271,1,stage1,1,Resource Misuse,404.0,1,0,0,0,0
+271,2,stage2,1,Resource Misuse,404.0,1,1,0,0,1
+271,3,stage3,1,Resource Misuse,404.0,1,0,0,1,1
+271,4,stage4,1,Resource Misuse,404.0,1,0,0,0,0
+272,1,stage1,1,Resource Misuse,416.0,1,0,0,0,0
+272,2,stage2,1,Resource Misuse,416.0,0,1,0,0,0
+272,3,stage3,1,Resource Misuse,416.0,0,0,0,0,1
+272,4,stage4,1,Resource Misuse,416.0,0,0,0,0,1
+273,1,stage1,1,Resource Misuse,404.0,1,0,0,1,0
+273,2,stage2,1,Resource Misuse,404.0,1,0,0,0,1
+273,3,stage3,1,Resource Misuse,404.0,1,0,0,0,0
+273,4,stage4,1,Resource Misuse,404.0,1,0,0,0,1
+274,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+274,2,stage2,1,Resource Misuse,416.0,0,0,0,0,0
+274,3,stage3,1,Resource Misuse,416.0,0,0,0,0,1
+274,4,stage4,1,Resource Misuse,416.0,0,0,0,0,1
+275,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+275,2,stage2,1,Resource Misuse,416.0,1,0,0,1,0
+275,3,stage3,1,Resource Misuse,416.0,1,1,0,1,0
+275,4,stage4,1,Resource Misuse,416.0,1,0,0,0,0
+276,1,stage1,1,Resource Misuse,404.0,1,0,0,1,1
+276,2,stage2,1,Resource Misuse,404.0,1,1,0,0,0
+276,3,stage3,1,Resource Misuse,404.0,1,0,0,1,1
+276,4,stage4,1,Resource Misuse,404.0,1,0,0,0,0
+277,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+277,2,stage2,1,Resource Misuse,416.0,1,1,0,1,0
+277,3,stage3,1,Resource Misuse,416.0,1,0,0,1,0
+277,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+278,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+278,2,stage2,1,Resource Misuse,416.0,1,0,0,0,0
+278,3,stage3,1,Resource Misuse,416.0,1,0,0,1,0
+278,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+279,1,stage1,1,Resource Misuse,415.0,1,0,0,1,0
+279,2,stage2,1,Resource Misuse,415.0,1,1,0,0,1
+279,3,stage3,1,Resource Misuse,415.0,1,0,0,1,0
+279,4,stage4,1,Resource Misuse,415.0,1,0,0,0,0
+280,1,stage1,1,Resource Misuse,416.0,1,0,0,0,0
+280,2,stage2,1,Resource Misuse,416.0,0,1,0,1,0
+280,3,stage3,1,Resource Misuse,416.0,0,0,0,1,1
+280,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+281,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+281,2,stage2,1,Resource Misuse,416.0,0,1,0,0,0
+281,3,stage3,1,Resource Misuse,416.0,1,0,0,1,1
+281,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+282,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+282,2,stage2,1,Resource Misuse,416.0,1,0,0,0,1
+282,3,stage3,1,Resource Misuse,416.0,0,0,0,1,0
+282,4,stage4,1,Resource Misuse,416.0,1,0,0,1,1
+283,1,stage1,1,Resource Misuse,404.0,1,0,0,1,1
+283,2,stage2,1,Resource Misuse,404.0,0,0,0,0,0
+283,3,stage3,1,Resource Misuse,404.0,1,0,0,1,0
+283,4,stage4,1,Resource Misuse,404.0,1,0,0,0,0
+284,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+284,2,stage2,1,Resource Misuse,416.0,1,1,0,1,1
+284,3,stage3,1,Resource Misuse,416.0,0,0,0,1,1
+284,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+285,1,stage1,1,Resource Misuse,415.0,1,0,0,1,1
+285,2,stage2,1,Resource Misuse,415.0,0,1,0,0,0
+285,3,stage3,1,Resource Misuse,415.0,1,0,0,0,1
+285,4,stage4,1,Resource Misuse,415.0,1,0,0,0,0
+286,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+286,2,stage2,1,Resource Misuse,416.0,1,1,0,1,1
+286,3,stage3,1,Resource Misuse,416.0,0,0,0,0,1
+286,4,stage4,1,Resource Misuse,416.0,0,0,0,0,1
+287,1,stage1,1,Resource Misuse,416.0,1,0,0,0,1
+287,2,stage2,1,Resource Misuse,416.0,1,1,0,0,0
+287,3,stage3,1,Resource Misuse,416.0,0,0,0,1,0
+287,4,stage4,1,Resource Misuse,416.0,0,0,0,0,0
+288,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+288,2,stage2,1,Resource Misuse,416.0,1,1,0,0,1
+288,3,stage3,1,Resource Misuse,416.0,1,0,0,1,1
+288,4,stage4,1,Resource Misuse,416.0,1,0,0,0,0
+289,1,stage1,1,Resource Misuse,416.0,1,0,0,0,0
+289,2,stage2,1,Resource Misuse,416.0,0,0,0,0,0
+289,3,stage3,1,Resource Misuse,416.0,0,0,0,1,0
+289,4,stage4,1,Resource Misuse,416.0,0,0,0,0,0
+290,1,stage1,1,Resource Misuse,415.0,1,0,0,1,0
+290,2,stage2,1,Resource Misuse,415.0,1,1,0,0,0
+290,3,stage3,1,Resource Misuse,415.0,1,0,0,1,0
+290,4,stage4,1,Resource Misuse,415.0,1,0,0,0,0
+291,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+291,2,stage2,1,Resource Misuse,416.0,1,1,0,1,0
+291,3,stage3,1,Resource Misuse,416.0,1,1,0,1,1
+291,4,stage4,1,Resource Misuse,416.0,1,0,0,0,0
+292,1,stage1,1,Resource Misuse,415.0,0,0,0,0,0
+292,2,stage2,1,Resource Misuse,415.0,1,0,0,0,0
+292,3,stage3,1,Resource Misuse,415.0,0,0,0,1,1
+292,4,stage4,1,Resource Misuse,415.0,0,0,0,0,0
+293,1,stage1,1,Resource Misuse,416.0,1,0,0,1,1
+293,2,stage2,1,Resource Misuse,416.0,1,0,0,1,0
+293,3,stage3,1,Resource Misuse,416.0,1,0,0,1,0
+293,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+294,1,stage1,1,Resource Misuse,416.0,1,0,0,0,0
+294,2,stage2,1,Resource Misuse,416.0,0,0,0,0,1
+294,3,stage3,1,Resource Misuse,416.0,1,0,0,1,0
+294,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+295,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+295,2,stage2,1,Resource Misuse,416.0,1,1,0,0,0
+295,3,stage3,1,Resource Misuse,416.0,1,0,0,0,0
+295,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+296,1,stage1,1,Resource Misuse,415.0,1,0,0,1,1
+296,2,stage2,1,Resource Misuse,415.0,1,1,0,0,1
+296,3,stage3,1,Resource Misuse,415.0,0,0,0,1,1
+296,4,stage4,1,Resource Misuse,415.0,0,0,0,1,1
+297,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+297,2,stage2,1,Resource Misuse,416.0,1,1,0,1,0
+297,3,stage3,1,Resource Misuse,416.0,1,0,0,1,1
+297,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+298,1,stage1,1,Resource Misuse,404.0,1,0,0,0,1
+298,2,stage2,1,Resource Misuse,404.0,1,1,0,0,0
+298,3,stage3,1,Resource Misuse,404.0,1,0,0,1,1
+298,4,stage4,1,Resource Misuse,404.0,0,0,0,0,0
+299,1,stage1,1,Resource Misuse,416.0,1,0,0,1,0
+299,2,stage2,1,Resource Misuse,416.0,1,0,0,1,1
+299,3,stage3,1,Resource Misuse,416.0,1,0,0,1,0
+299,4,stage4,1,Resource Misuse,416.0,1,0,0,0,1
+300,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+300,2,stage2,0,Resource Misuse,416.0,1,0,0,1,1
+300,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+300,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+301,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+301,2,stage2,0,Resource Misuse,416.0,0,1,0,0,0
+301,3,stage3,0,Resource Misuse,416.0,0,0,0,1,0
+301,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+302,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+302,2,stage2,0,Resource Misuse,416.0,0,0,0,0,0
+302,3,stage3,0,Resource Misuse,416.0,1,0,0,0,0
+302,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+303,1,stage1,0,Resource Misuse,416.0,0,0,0,1,0
+303,2,stage2,0,Resource Misuse,416.0,0,1,0,0,0
+303,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+303,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+304,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+304,2,stage2,0,Resource Misuse,416.0,1,0,0,1,1
+304,3,stage3,0,Resource Misuse,416.0,1,0,0,1,1
+304,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+305,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+305,2,stage2,0,Resource Misuse,416.0,1,0,0,1,0
+305,3,stage3,0,Resource Misuse,416.0,0,0,0,0,0
+305,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+306,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+306,2,stage2,0,Resource Misuse,416.0,1,1,0,0,1
+306,3,stage3,0,Resource Misuse,416.0,0,0,0,0,1
+306,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+307,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+307,2,stage2,0,Resource Misuse,416.0,1,0,0,1,1
+307,3,stage3,0,Resource Misuse,416.0,1,0,0,0,0
+307,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+308,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+308,2,stage2,0,Resource Misuse,416.0,0,1,0,0,0
+308,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+308,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+309,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+309,2,stage2,0,Resource Misuse,416.0,1,1,0,1,1
+309,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+309,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+310,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+310,2,stage2,0,Resource Misuse,416.0,1,1,0,1,0
+310,3,stage3,0,Resource Misuse,416.0,1,0,0,1,0
+310,4,stage4,0,Resource Misuse,416.0,1,0,0,1,1
+311,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+311,2,stage2,0,Resource Misuse,416.0,1,1,0,1,1
+311,3,stage3,0,Resource Misuse,416.0,0,0,0,0,1
+311,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+312,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+312,2,stage2,0,Resource Misuse,416.0,0,1,0,0,0
+312,3,stage3,0,Resource Misuse,416.0,1,0,0,0,0
+312,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+313,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+313,2,stage2,0,Resource Misuse,416.0,1,1,0,0,0
+313,3,stage3,0,Resource Misuse,416.0,0,0,0,0,0
+313,4,stage4,0,Resource Misuse,416.0,0,0,0,0,0
+314,1,stage1,0,Resource Misuse,415.0,1,0,0,1,0
+314,2,stage2,0,Resource Misuse,415.0,1,1,0,0,0
+314,3,stage3,0,Resource Misuse,415.0,0,0,0,1,0
+314,4,stage4,0,Resource Misuse,415.0,0,0,1,1,0
+315,1,stage1,0,Resource Misuse,415.0,1,0,0,1,0
+315,2,stage2,0,Resource Misuse,415.0,1,0,0,1,1
+315,3,stage3,0,Resource Misuse,415.0,0,0,0,0,1
+315,4,stage4,0,Resource Misuse,415.0,0,0,0,0,1
+316,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+316,2,stage2,0,Resource Misuse,416.0,1,1,0,1,0
+316,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+316,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+317,1,stage1,0,Resource Misuse,415.0,1,0,0,1,0
+317,2,stage2,0,Resource Misuse,415.0,1,0,0,1,0
+317,3,stage3,0,Resource Misuse,415.0,1,1,0,1,0
+317,4,stage4,0,Resource Misuse,415.0,1,0,0,0,0
+318,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+318,2,stage2,0,Resource Misuse,416.0,0,0,0,0,0
+318,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+318,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+319,1,stage1,0,Resource Misuse,404.0,1,0,0,1,0
+319,2,stage2,0,Resource Misuse,404.0,1,1,0,0,0
+319,3,stage3,0,Resource Misuse,404.0,0,0,0,1,1
+319,4,stage4,0,Resource Misuse,404.0,1,0,0,0,0
+320,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+320,2,stage2,0,Resource Misuse,416.0,1,0,0,0,0
+320,3,stage3,0,Resource Misuse,416.0,0,0,0,0,0
+320,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+321,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+321,2,stage2,0,Resource Misuse,416.0,1,1,0,0,0
+321,3,stage3,0,Resource Misuse,416.0,1,0,0,1,0
+321,4,stage4,0,Resource Misuse,416.0,0,0,0,1,0
+322,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+322,2,stage2,0,Resource Misuse,416.0,1,0,0,1,0
+322,3,stage3,0,Resource Misuse,416.0,1,0,0,1,1
+322,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+323,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+323,2,stage2,0,Resource Misuse,416.0,0,0,0,0,0
+323,3,stage3,0,Resource Misuse,416.0,1,0,0,1,1
+323,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+324,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+324,2,stage2,0,Resource Misuse,416.0,0,1,0,1,0
+324,3,stage3,0,Resource Misuse,416.0,1,0,0,1,1
+324,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+325,1,stage1,0,Resource Misuse,404.0,0,0,0,0,0
+325,2,stage2,0,Resource Misuse,404.0,0,0,0,0,0
+325,3,stage3,0,Resource Misuse,404.0,0,0,0,0,1
+325,4,stage4,0,Resource Misuse,404.0,0,0,0,0,0
+326,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+326,2,stage2,0,Resource Misuse,416.0,1,0,0,0,0
+326,3,stage3,0,Resource Misuse,416.0,0,0,0,1,0
+326,4,stage4,0,Resource Misuse,416.0,1,0,0,1,0
+327,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+327,2,stage2,0,Resource Misuse,416.0,0,0,0,0,0
+327,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+327,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+328,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+328,2,stage2,0,Resource Misuse,416.0,1,0,0,1,0
+328,3,stage3,0,Resource Misuse,416.0,1,0,0,1,1
+328,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+329,1,stage1,0,Resource Misuse,415.0,1,0,0,1,0
+329,2,stage2,0,Resource Misuse,415.0,1,1,0,1,0
+329,3,stage3,0,Resource Misuse,415.0,1,0,0,1,1
+329,4,stage4,0,Resource Misuse,415.0,0,0,0,0,1
+330,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+330,2,stage2,0,Resource Misuse,416.0,1,1,0,1,0
+330,3,stage3,0,Resource Misuse,416.0,1,1,0,1,0
+330,4,stage4,0,Resource Misuse,416.0,0,0,0,0,0
+331,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+331,2,stage2,0,Resource Misuse,416.0,0,0,0,0,0
+331,3,stage3,0,Resource Misuse,416.0,0,0,0,0,1
+331,4,stage4,0,Resource Misuse,416.0,1,0,0,0,0
+332,1,stage1,0,Resource Misuse,416.0,0,0,0,1,0
+332,2,stage2,0,Resource Misuse,416.0,1,1,0,1,0
+332,3,stage3,0,Resource Misuse,416.0,1,0,0,1,0
+332,4,stage4,0,Resource Misuse,416.0,1,0,0,0,0
+333,1,stage1,0,Resource Misuse,416.0,1,0,0,0,0
+333,2,stage2,0,Resource Misuse,416.0,1,1,0,1,0
+333,3,stage3,0,Resource Misuse,416.0,0,0,0,0,0
+333,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+334,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+334,2,stage2,0,Resource Misuse,416.0,0,1,0,1,1
+334,3,stage3,0,Resource Misuse,416.0,0,0,0,0,1
+334,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+335,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+335,2,stage2,0,Resource Misuse,416.0,1,1,0,1,0
+335,3,stage3,0,Resource Misuse,416.0,0,0,0,0,0
+335,4,stage4,0,Resource Misuse,416.0,0,0,0,0,1
+336,1,stage1,0,Resource Misuse,416.0,0,0,0,0,0
+336,2,stage2,0,Resource Misuse,416.0,0,1,0,0,0
+336,3,stage3,0,Resource Misuse,416.0,0,0,0,0,1
+336,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+337,1,stage1,0,Resource Misuse,416.0,1,0,0,1,1
+337,2,stage2,0,Resource Misuse,416.0,0,1,0,0,1
+337,3,stage3,0,Resource Misuse,416.0,1,0,0,0,1
+337,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+338,1,stage1,0,Resource Misuse,416.0,1,0,0,1,0
+338,2,stage2,0,Resource Misuse,416.0,1,1,0,1,0
+338,3,stage3,0,Resource Misuse,416.0,1,0,0,1,0
+338,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+339,1,stage1,0,Resource Misuse,416.0,0,0,0,1,0
+339,2,stage2,0,Resource Misuse,416.0,0,0,0,0,0
+339,3,stage3,0,Resource Misuse,416.0,0,0,0,0,1
+339,4,stage4,0,Resource Misuse,416.0,1,0,0,0,1
+340,1,stage1,1,Access Control (BigVul),862.0,1,0,0,1,0
+340,2,stage2,1,Access Control (BigVul),862.0,1,1,0,0,0
+340,3,stage3,1,Access Control (BigVul),862.0,1,0,0,1,0
+340,4,stage4,1,Access Control (BigVul),862.0,0,0,0,0,1
+341,1,stage1,1,Access Control (BigVul),862.0,1,0,0,1,0
+341,2,stage2,1,Access Control (BigVul),862.0,1,1,0,1,0
+341,3,stage3,1,Access Control (BigVul),862.0,1,0,0,1,1
+341,4,stage4,1,Access Control (BigVul),862.0,1,0,0,0,1
+342,1,stage1,1,Access Control (BigVul),862.0,1,0,0,1,0
+342,2,stage2,1,Access Control (BigVul),862.0,1,1,0,1,0
+342,3,stage3,1,Access Control (BigVul),862.0,1,0,0,1,0
+342,4,stage4,1,Access Control (BigVul),862.0,1,0,0,1,1
+343,1,stage1,1,Access Control (BigVul),862.0,1,0,0,1,1
+343,2,stage2,1,Access Control (BigVul),862.0,1,1,0,1,1
+343,3,stage3,1,Access Control (BigVul),862.0,1,0,0,1,1
+343,4,stage4,1,Access Control (BigVul),862.0,1,0,1,1,1
+344,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+344,2,stage2,0,Access Control (BigVul),862.0,1,0,0,1,0
+344,3,stage3,0,Access Control (BigVul),862.0,0,0,0,0,0
+344,4,stage4,0,Access Control (BigVul),862.0,0,0,0,0,1
+345,1,stage1,0,Access Control (BigVul),862.0,1,0,0,0,0
+345,2,stage2,0,Access Control (BigVul),862.0,1,1,0,0,0
+345,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,0
+345,4,stage4,0,Access Control (BigVul),862.0,0,0,0,0,1
+346,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,1
+346,2,stage2,0,Access Control (BigVul),862.0,0,1,0,0,1
+346,3,stage3,0,Access Control (BigVul),862.0,0,0,0,0,1
+346,4,stage4,0,Access Control (BigVul),862.0,0,0,0,0,1
+347,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+347,2,stage2,0,Access Control (BigVul),862.0,0,1,0,0,0
+347,3,stage3,0,Access Control (BigVul),862.0,1,0,0,0,0
+347,4,stage4,0,Access Control (BigVul),862.0,1,0,0,0,1
+348,1,stage1,0,Access Control (BigVul),862.0,0,0,0,0,1
+348,2,stage2,0,Access Control (BigVul),862.0,1,1,0,1,1
+348,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,1
+348,4,stage4,0,Access Control (BigVul),862.0,1,0,0,1,1
+349,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+349,2,stage2,0,Access Control (BigVul),862.0,1,0,0,1,0
+349,3,stage3,0,Access Control (BigVul),862.0,0,0,0,0,1
+349,4,stage4,0,Access Control (BigVul),862.0,1,0,0,0,1
+350,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,1
+350,2,stage2,0,Access Control (BigVul),862.0,1,1,0,1,1
+350,3,stage3,0,Access Control (BigVul),862.0,1,1,0,1,0
+350,4,stage4,0,Access Control (BigVul),862.0,1,0,0,1,0
+351,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+351,2,stage2,0,Access Control (BigVul),862.0,1,0,0,1,0
+351,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,0
+351,4,stage4,0,Access Control (BigVul),862.0,0,0,0,0,0
+352,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+352,2,stage2,0,Access Control (BigVul),862.0,1,1,0,1,0
+352,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,1
+352,4,stage4,0,Access Control (BigVul),862.0,1,0,0,0,1
+353,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,1
+353,2,stage2,0,Access Control (BigVul),862.0,1,1,0,1,1
+353,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,1
+353,4,stage4,0,Access Control (BigVul),862.0,1,0,0,1,1
+354,1,stage1,0,Access Control (BigVul),862.0,1,0,0,0,1
+354,2,stage2,0,Access Control (BigVul),862.0,1,1,0,1,1
+354,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,0
+354,4,stage4,0,Access Control (BigVul),862.0,1,0,1,1,1
+355,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+355,2,stage2,0,Access Control (BigVul),862.0,1,1,0,0,0
+355,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,1
+355,4,stage4,0,Access Control (BigVul),862.0,1,0,0,0,1
+356,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+356,2,stage2,0,Access Control (BigVul),862.0,1,1,0,1,1
+356,3,stage3,0,Access Control (BigVul),862.0,1,0,0,1,0
+356,4,stage4,0,Access Control (BigVul),862.0,1,0,1,1,1
+357,1,stage1,0,Access Control (BigVul),862.0,1,0,0,0,0
+357,2,stage2,0,Access Control (BigVul),862.0,0,0,0,0,0
+357,3,stage3,0,Access Control (BigVul),862.0,1,0,0,0,0
+357,4,stage4,0,Access Control (BigVul),862.0,1,0,0,0,1
+358,1,stage1,0,Access Control (BigVul),862.0,1,0,0,1,0
+358,2,stage2,0,Access Control (BigVul),862.0,1,1,0,1,1
+358,3,stage3,0,Access Control (BigVul),862.0,1,0,0,0,1
+358,4,stage4,0,Access Control (BigVul),862.0,1,0,0,0,1
+359,1,stage1,1,General (Devign),,1,0,0,1,0
+359,2,stage2,1,General (Devign),,1,0,0,1,1
+359,3,stage3,1,General (Devign),,0,0,0,0,1
+359,4,stage4,1,General (Devign),,1,0,0,0,1
+360,1,stage1,1,General (Devign),,1,0,0,1,0
+360,2,stage2,1,General (Devign),,1,1,0,0,0
+360,3,stage3,1,General (Devign),,0,0,0,1,1
+360,4,stage4,1,General (Devign),,0,0,0,0,1
+361,1,stage1,1,General (Devign),,1,0,0,1,1
+361,2,stage2,1,General (Devign),,0,0,0,0,1
+361,3,stage3,1,General (Devign),,1,0,0,1,1
+361,4,stage4,1,General (Devign),,1,0,0,0,0
+362,1,stage1,1,General (Devign),,1,0,0,1,1
+362,2,stage2,1,General (Devign),,1,1,1,1,1
+362,3,stage3,1,General (Devign),,1,0,0,1,1
+362,4,stage4,1,General (Devign),,0,0,0,1,1
+363,1,stage1,1,General (Devign),,1,0,0,1,0
+363,2,stage2,1,General (Devign),,1,1,0,1,0
+363,3,stage3,1,General (Devign),,1,0,0,1,1
+363,4,stage4,1,General (Devign),,0,0,0,0,1
+364,1,stage1,1,General (Devign),,1,0,0,0,0
+364,2,stage2,1,General (Devign),,1,1,0,0,0
+364,3,stage3,1,General (Devign),,0,0,0,1,0
+364,4,stage4,1,General (Devign),,0,0,0,0,0
+365,1,stage1,1,General (Devign),,1,0,0,1,0
+365,2,stage2,1,General (Devign),,1,1,0,0,0
+365,3,stage3,1,General (Devign),,1,0,0,1,0
+365,4,stage4,1,General (Devign),,1,0,0,0,1
+366,1,stage1,1,General (Devign),,1,0,0,1,1
+366,2,stage2,1,General (Devign),,1,1,0,1,1
+366,3,stage3,1,General (Devign),,1,0,0,0,1
+366,4,stage4,1,General (Devign),,0,0,0,0,1
+367,1,stage1,1,General (Devign),,1,0,0,1,1
+367,2,stage2,1,General (Devign),,1,1,0,1,1
+367,3,stage3,1,General (Devign),,0,0,0,0,1
+367,4,stage4,1,General (Devign),,0,0,0,0,1
+368,1,stage1,1,General (Devign),,1,0,0,1,1
+368,2,stage2,1,General (Devign),,1,1,0,1,0
+368,3,stage3,1,General (Devign),,1,0,0,0,1
+368,4,stage4,1,General (Devign),,0,0,0,0,1
+369,1,stage1,1,General (Devign),,1,0,0,1,1
+369,2,stage2,1,General (Devign),,1,0,0,1,0
+369,3,stage3,1,General (Devign),,1,0,0,1,0
+369,4,stage4,1,General (Devign),,0,0,0,0,1
+370,1,stage1,1,General (Devign),,1,0,0,1,0
+370,2,stage2,1,General (Devign),,1,1,0,0,0
+370,3,stage3,1,General (Devign),,0,0,0,1,0
+370,4,stage4,1,General (Devign),,1,0,0,1,0
+371,1,stage1,1,General (Devign),,1,0,0,1,1
+371,2,stage2,1,General (Devign),,1,0,0,1,1
+371,3,stage3,1,General (Devign),,0,0,0,1,1
+371,4,stage4,1,General (Devign),,1,0,0,0,1
+372,1,stage1,1,General (Devign),,1,0,0,0,0
+372,2,stage2,1,General (Devign),,1,1,0,0,1
+372,3,stage3,1,General (Devign),,1,0,0,0,1
+372,4,stage4,1,General (Devign),,0,0,0,0,1
+373,1,stage1,1,General (Devign),,1,0,0,0,1
+373,2,stage2,1,General (Devign),,1,0,0,0,1
+373,3,stage3,1,General (Devign),,0,0,0,0,0
+373,4,stage4,1,General (Devign),,1,0,0,1,1
+374,1,stage1,1,General (Devign),,1,0,0,1,0
+374,2,stage2,1,General (Devign),,0,1,0,0,0
+374,3,stage3,1,General (Devign),,1,0,0,1,1
+374,4,stage4,1,General (Devign),,0,0,0,0,1
+375,1,stage1,1,General (Devign),,1,0,0,0,1
+375,2,stage2,1,General (Devign),,1,1,0,0,0
+375,3,stage3,1,General (Devign),,1,0,0,1,1
+375,4,stage4,1,General (Devign),,1,0,0,0,0
+376,1,stage1,1,General (Devign),,0,0,0,0,0
+376,2,stage2,1,General (Devign),,0,1,0,0,0
+376,3,stage3,1,General (Devign),,1,0,0,1,1
+376,4,stage4,1,General (Devign),,0,0,0,0,1
+377,1,stage1,1,General (Devign),,1,0,0,0,1
+377,2,stage2,1,General (Devign),,0,1,0,0,0
+377,3,stage3,1,General (Devign),,0,0,0,0,0
+377,4,stage4,1,General (Devign),,0,0,0,1,0
+378,1,stage1,1,General (Devign),,1,0,0,0,0
+378,2,stage2,1,General (Devign),,1,1,0,0,0
+378,3,stage3,1,General (Devign),,1,0,0,0,1
+378,4,stage4,1,General (Devign),,1,0,0,0,0
+379,1,stage1,0,General (Devign),,1,0,0,1,1
+379,2,stage2,0,General (Devign),,1,0,0,1,1
+379,3,stage3,0,General (Devign),,1,0,0,1,1
+379,4,stage4,0,General (Devign),,0,0,0,0,1
+380,1,stage1,0,General (Devign),,1,0,0,1,1
+380,2,stage2,0,General (Devign),,1,0,0,1,0
+380,3,stage3,0,General (Devign),,0,0,0,0,1
+380,4,stage4,0,General (Devign),,1,0,0,0,1
+381,1,stage1,0,General (Devign),,1,0,0,0,0
+381,2,stage2,0,General (Devign),,0,1,0,0,0
+381,3,stage3,0,General (Devign),,0,1,0,1,0
+381,4,stage4,0,General (Devign),,1,0,0,0,0
+382,1,stage1,0,General (Devign),,1,0,0,1,1
+382,2,stage2,0,General (Devign),,0,1,0,0,0
+382,3,stage3,0,General (Devign),,1,0,0,1,1
+382,4,stage4,0,General (Devign),,1,0,0,1,1
+383,1,stage1,0,General (Devign),,1,0,0,1,1
+383,2,stage2,0,General (Devign),,0,1,0,0,1
+383,3,stage3,0,General (Devign),,1,0,0,1,1
+383,4,stage4,0,General (Devign),,1,0,0,0,1
+384,1,stage1,0,General (Devign),,1,0,0,0,1
+384,2,stage2,0,General (Devign),,0,0,0,0,1
+384,3,stage3,0,General (Devign),,1,0,0,0,1
+384,4,stage4,0,General (Devign),,0,0,0,0,0
+385,1,stage1,0,General (Devign),,1,0,0,1,1
+385,2,stage2,0,General (Devign),,0,1,0,0,1
+385,3,stage3,0,General (Devign),,1,0,0,1,1
+385,4,stage4,0,General (Devign),,1,0,0,0,1
+386,1,stage1,0,General (Devign),,1,0,0,1,0
+386,2,stage2,0,General (Devign),,0,1,0,0,0
+386,3,stage3,0,General (Devign),,0,0,0,1,1
+386,4,stage4,0,General (Devign),,0,0,0,0,1
+387,1,stage1,0,General (Devign),,1,0,0,1,0
+387,2,stage2,0,General (Devign),,1,1,1,1,1
+387,3,stage3,0,General (Devign),,1,0,0,1,1
+387,4,stage4,0,General (Devign),,1,0,0,0,0
+388,1,stage1,0,General (Devign),,1,0,0,1,1
+388,2,stage2,0,General (Devign),,1,0,0,1,1
+388,3,stage3,0,General (Devign),,0,0,0,1,1
+388,4,stage4,0,General (Devign),,0,0,0,0,1
+389,1,stage1,0,General (Devign),,1,0,0,1,1
+389,2,stage2,0,General (Devign),,0,0,0,1,1
+389,3,stage3,0,General (Devign),,1,1,0,1,0
+389,4,stage4,0,General (Devign),,0,0,0,1,0
+390,1,stage1,0,General (Devign),,1,0,0,1,0
+390,2,stage2,0,General (Devign),,1,1,0,0,1
+390,3,stage3,0,General (Devign),,1,0,0,1,1
+390,4,stage4,0,General (Devign),,1,0,0,0,0
+391,1,stage1,0,General (Devign),,1,0,0,1,1
+391,2,stage2,0,General (Devign),,0,1,0,0,1
+391,3,stage3,0,General (Devign),,0,0,0,1,0
+391,4,stage4,0,General (Devign),,0,0,0,0,0
+392,1,stage1,0,General (Devign),,1,0,0,1,0
+392,2,stage2,0,General (Devign),,1,0,0,1,0
+392,3,stage3,0,General (Devign),,1,0,0,0,0
+392,4,stage4,0,General (Devign),,0,0,0,0,1
+393,1,stage1,0,General (Devign),,0,0,0,0,0
+393,2,stage2,0,General (Devign),,0,1,0,0,0
+393,3,stage3,0,General (Devign),,0,0,0,1,1
+393,4,stage4,0,General (Devign),,1,0,0,0,0
+394,1,stage1,0,General (Devign),,1,0,0,0,0
+394,2,stage2,0,General (Devign),,0,1,0,0,0
+394,3,stage3,0,General (Devign),,0,0,0,0,1
+394,4,stage4,0,General (Devign),,0,0,0,0,1
+395,1,stage1,0,General (Devign),,1,0,0,1,1
+395,2,stage2,0,General (Devign),,1,1,0,0,0
+395,3,stage3,0,General (Devign),,1,0,0,1,1
+395,4,stage4,0,General (Devign),,0,0,0,0,1
+396,1,stage1,0,General (Devign),,1,0,0,1,1
+396,2,stage2,0,General (Devign),,1,1,0,1,0
+396,3,stage3,0,General (Devign),,1,0,0,0,1
+396,4,stage4,0,General (Devign),,0,0,0,0,1
+397,1,stage1,0,General (Devign),,1,0,0,0,1
+397,2,stage2,0,General (Devign),,1,0,0,1,1
+397,3,stage3,0,General (Devign),,1,0,0,0,1
+397,4,stage4,0,General (Devign),,1,0,0,0,1
+398,1,stage1,0,General (Devign),,1,0,0,1,1
+398,2,stage2,0,General (Devign),,0,1,0,0,1
+398,3,stage3,0,General (Devign),,0,0,0,1,0
+398,4,stage4,0,General (Devign),,0,0,0,0,1
+399,1,stage1,0,General (Devign),,1,0,0,1,0
+399,2,stage2,0,General (Devign),,0,1,0,0,0
+399,3,stage3,0,General (Devign),,1,0,0,0,1
+399,4,stage4,0,General (Devign),,1,0,0,0,1
