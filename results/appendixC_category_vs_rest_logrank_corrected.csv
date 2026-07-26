@@ -1,0 +1,36 @@
+model,category,n,chi2,p_holm,sig
+CodeLlama,Memory Safety Juliet,40,1.055,1.000,No
+CodeLlama,Memory Safety BigVul,20,0.440,1.000,No
+CodeLlama,Injection,40,1.055,1.000,No
+CodeLlama,Numeric Errors,30,0.743,1.000,No
+CodeLlama,Resource Misuse,40,1.665,1.000,No
+CodeLlama,Access Control,4,0.086,1.000,No
+CodeLlama,General,20,0.038,1.000,No
+StarCoder2,Memory Safety Juliet,40,1.920,0.664,No
+StarCoder2,Memory Safety BigVul,20,0.290,1.000,No
+StarCoder2,Injection,40,17.579,<0.001,Yes
+StarCoder2,Numeric Errors,30,0.009,1.000,No
+StarCoder2,Resource Misuse,40,0.586,1.000,No
+StarCoder2,Access Control,4,3.516,0.365,No
+StarCoder2,General,20,2.452,0.587,No
+DeepSeek-Coder,Memory Safety Juliet,40,43.299,<0.001,Yes
+DeepSeek-Coder,Memory Safety BigVul,20,21.271,<0.001,Yes
+DeepSeek-Coder,Injection,40,52.874,<0.001,Yes
+DeepSeek-Coder,Numeric Errors,30,29.321,<0.001,Yes
+DeepSeek-Coder,Resource Misuse,40,60.759,<0.001,Yes
+DeepSeek-Coder,Access Control,4,1.797,0.180,No
+DeepSeek-Coder,General,20,21.271,<0.001,Yes
+Mistral,Memory Safety Juliet,40,5.762,0.098,No
+Mistral,Memory Safety BigVul,20,0.908,0.681,No
+Mistral,Injection,40,5.762,0.098,No
+Mistral,Numeric Errors,30,2.027,0.618,No
+Mistral,Resource Misuse,40,1.658,0.618,No
+Mistral,Access Control,4,0.467,0.681,No
+Mistral,General,20,12.734,0.003,Yes
+WizardCoder,Memory Safety Juliet,40,9.077,0.008,Yes
+WizardCoder,Memory Safety BigVul,20,9.787,0.007,Yes
+WizardCoder,Injection,40,21.379,<0.001,Yes
+WizardCoder,Numeric Errors,30,13.423,0.001,Yes
+WizardCoder,Resource Misuse,40,11.145,0.004,Yes
+WizardCoder,Access Control,4,2.450,0.118,No
+WizardCoder,General,20,3.691,0.109,No

@@ -1,0 +1,8 @@
+category,codellama_f1,codellama_stage,deepseek_f1,deepseek_stage,mistral_f1,mistral_stage,starcoder2_f1,starcoder2_stage,wizardcoder_f1,wizardcoder_stage
+Access Control,0.400,2,0.286,4,0.471,3,0.421,2,0.381,4
+General,0.711,2,0.091,2,0.531,1,0.612,2,0.583,4
+Injection,0.696,2,1.000,4,0.812,2,0.369,2,0.696,2
+Memory Safety BigVul,0.667,1,0.095,2,0.652,3,0.553,2,0.533,1
+Memory Safety Juliet,0.748,2,0.987,4,0.808,1,0.640,2,0.731,2
+Numeric Errors,0.682,2,0.983,4,0.753,1,0.393,2,0.674,1
+Resource Misuse,0.673,1,0.000,1,0.651,3,0.568,2,0.500,3

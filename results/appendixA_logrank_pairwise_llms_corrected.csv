@@ -1,0 +1,11 @@
+model_1,model_2,chi2,p,p_bonf,p_holm,sig_holm
+CodeLlama,StarCoder2,354.500,<0.001,<0.001,<0.001,Yes
+CodeLlama,DeepSeek-Coder,132.700,<0.001,<0.001,<0.001,Yes
+CodeLlama,Mistral,8.821,0.003,0.030,0.006,Yes
+CodeLlama,WizardCoder,44.920,<0.001,<0.001,<0.001,Yes
+StarCoder2,DeepSeek-Coder,6.242,0.012,0.125,0.012,Yes
+StarCoder2,Mistral,252.100,<0.001,<0.001,<0.001,Yes
+StarCoder2,WizardCoder,151.200,<0.001,<0.001,<0.001,Yes
+DeepSeek-Coder,Mistral,107.300,<0.001,<0.001,<0.001,Yes
+DeepSeek-Coder,WizardCoder,72.790,<0.001,<0.001,<0.001,Yes
+Mistral,WizardCoder,11.260,<0.001,0.008,<0.001,Yes

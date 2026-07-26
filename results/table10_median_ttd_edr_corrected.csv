@@ -1,0 +1,11 @@
+method,type,median_ttd,n_censored,pct_censored,edr
+codellama,LLM,Stage 1,1,0.5%,0.985
+starcoder2,LLM,Stage 2,77,39.7%,0.536
+deepseek,LLM,Stage 1,81,41.8%,0.531
+mistral,LLM,Stage 1,4,2.1%,0.907
+wizardcoder,LLM,Stage 1,8,4.1%,0.799
+flawfinder,Static,greater than Stage 4,115,59.3%,N/A
+cppcheck,Static,Stage 3,1,0.5%,N/A
+semgrep,Static,greater than Stage 4,194,100.0%,N/A
+infer,Static,greater than Stage 4,194,100.0%,N/A
+codeql,Static,greater than Stage 4,194,100.0%,N/A

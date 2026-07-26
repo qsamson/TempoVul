@@ -1,0 +1,6 @@
+model,n_significant,total,significant_categories
+codellama,0,7,none
+starcoder2,1,7,Injection
+deepseek,6,7,"General, Injection, Memory Safety BigVul, Memory Safety Juliet, Numeric Errors, Resource Misuse"
+mistral,1,7,General
+wizardcoder,5,7,"Injection, Memory Safety BigVul, Memory Safety Juliet, Numeric Errors, Resource Misuse"
