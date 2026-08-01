@@ -33,12 +33,13 @@ Instruction following reliability is a measurable confound, independent of code 
 ```
 TempoVul/
 ├── data/
-│   ├── tempovul_v2.csv                     400 samples, 4 stage-specific artifacts
+│   ├── README.md                                       data schema documentation
+│   ├── tempovul_v2.csv                                 400 samples, 4 stage-specific artifacts
 │   ├── llm_predictions/
-│   │   └── llm_master_v2.csv               all 5 models, all 4 stages, 1,600 rows
+│   │   └── llm_master_v2.csv                           all 5 models, all 4 stages, 1,600 rows
 │   └── static_tool_outputs/
-│       └── static_master.csv               all 5 tools, Stage 3
-├── results/                                reproduces every table in the paper
+│       └── static_master.csv                           all 5 tools, Stage 3
+├── results/                                             reproduces every table in the paper
 │   ├── table6_llm_classification_corrected.csv
 │   ├── table7_static_classification_corrected.csv
 │   ├── table8_vds_corrected.csv
@@ -49,15 +50,19 @@ TempoVul/
 │   ├── appendixA_logrank_pairwise_llms_corrected.csv
 │   ├── appendixB_mcnemar_stage3_all_methods_verified.csv
 │   └── appendixC_category_vs_rest_logrank_corrected.csv
-├── figures/                                figures used in the paper
-│   ├── FIG2-HEATMAP.png                    F1 score heatmap, LLMs by SDLC stage
-│   ├── FIG3-BARCHAT.png                    F1 score comparison, grouped by stage
-│   ├── FIG4-STATIC.png                     static tool detection rate
-│   ├── FIG5-KMCURVE.png                    Kaplan-Meier survival curves
-│   ├── FIG6-MEDIANDHEATMAP.png             median detection stage by CWE category
-│   └── EDR-Values-ForLLMS.png              early detection rate by LLM
-├── notebooks/                              dataset construction, evaluation, and analysis notebooks
-└── src/utils/                              evaluation and analysis scripts
+├── figures/                                             figures used in the paper
+│   ├── FIG2-HEATMAP.png                                 F1 score heatmap, LLMs by SDLC stage
+│   ├── FIG3-BARCHAT.png                                 F1 score comparison, grouped by stage
+│   ├── FIG4-STATIC.png                                  static tool detection rate
+│   ├── FIG5-KMCURVE.png                                 Kaplan-Meier survival curves
+│   ├── FIG6-MEDIANDHEATMAP.png                          median detection stage by CWE category
+│   └── EDR-Values-ForLLMS.png                           early detection rate by LLM
+├── notebooks/
+│   ├── 01_dataset_construction.ipynb                    sampling from Juliet, Devign, and Big-Vul
+│   ├── 02_artifact_and_evaluation_pipeline.ipynb        stage artifact generation and LLM evaluation
+│   └── 03_stage4_analysis.ipynb                         Stage 4 artifact build and full results analysis
+└── src/
+    └── utils/                                           evaluation and analysis scripts
 ```
 
 ## Quickstart
