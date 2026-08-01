@@ -3,7 +3,7 @@
 **A Temporal Benchmark Study of LLM-Assisted Vulnerability Detection Across the Secure SDLC**
 
 Samson Quaye, Ahmed Ben Ayed, Maurice Dawson, Marwan Omar
-Center for Cybersecurity and Forensic Education (C2SAFE), Illinois Institute of Technology. School of Engineering & Technology, National University
+Center for Cybersecurity and Forensic Education, Illinois Institute of Technology. School of Engineering & Technology, National University
 
 ![python](https://img.shields.io/badge/python-3.10-blue)
 ![license](https://img.shields.io/badge/License-MIT-yellow)
@@ -14,16 +14,19 @@ Center for Cybersecurity and Forensic Education (C2SAFE), Illinois Institute of 
 
 ## Overview
 
-Existing vulnerability detection benchmarks evaluate LLMs and static analysis tools almost exclusively at the implementation stage. TempoVul is the first benchmark to evaluate both across all four stages of the secure SDLC: Requirements, Design, Implementation, and Testing. It covers 400 samples spanning 15 CWE categories drawn from the Juliet Test Suite, Devign, and Big-Vul.
+Existing vulnerability detection benchmarks evaluate LLMs and static analysis tools almost exclusively at the implementation stage. TempoVul is the first benchmark to evaluate both across all four stages of the secure SDLC: Requirements, Design, Implementation, and Testing. The benchmark covers 400 samples spanning 15 CWE categories drawn from the Juliet Test Suite, Devign, and Big-Vul.
 
-Framing detection as a time-to-event problem, we apply Kaplan-Meier survival analysis, log-rank tests, and McNemar's test to five open-source LLMs (CodeLlama-7B, StarCoder2-7B, DeepSeek-Coder-7B, Mistral-7B-Instruct, WizardCoder-15B) and five static analysis tools (Semgrep, Flawfinder, cppcheck, Infer, CodeQL).
+Detection is framed as a time-to-event problem. We apply Kaplan-Meier survival analysis, log-rank tests, and McNemar's test to evaluate five open-source LLMs: CodeLlama-7B, StarCoder2-7B, DeepSeek-Coder-7B, Mistral-7B-Instruct, and WizardCoder-15B. We evaluate the same five static analysis tools: Semgrep, Flawfinder, cppcheck, Infer, and CodeQL.
 
-**Key findings:**
+## Key Findings
 
-- Four of five LLMs reach median detection at the requirements stage, while static analysis tools remain structurally blind before implementation. This is a significant temporal advantage (log-rank *p* < 0.001) that holds even when both method families are restricted to the stages where static tools can operate.
-- Classification accuracy shows no consistent LLM advantage over static analysis. The top model by F1 does not significantly outperform the strongest static baseline after multiple comparison correction, though DeepSeek-Coder does.
-- Detection capability varies significantly by CWE category, driven primarily, though not exclusively, by real world versus synthetic sample origin.
-- Instruction following reliability is a measurable confound independent of code understanding capability. Parseable output rates ranged from 99.8% for Mistral-Instruct to 16.9% for StarCoder2, a base rather than instruction tuned model.
+Four of five LLMs reach median detection at the requirements stage. Static analysis tools remain structurally blind before implementation. This is a significant temporal advantage, confirmed by log-rank testing at p < 0.001, and the advantage holds even when both method families are restricted to the stages where static tools can operate.
+
+Classification accuracy shows no consistent LLM advantage over static analysis. The top model by F1 does not significantly outperform the strongest static baseline after multiple comparison correction. DeepSeek-Coder is the exception, significantly outperforming every static baseline.
+
+Detection capability varies significantly by CWE category. This variation is driven primarily, though not exclusively, by real world versus synthetic sample origin.
+
+Instruction following reliability is a measurable confound, independent of code understanding capability. Parseable output rates ranged from 99.8% for Mistral-Instruct down to 16.9% for StarCoder2, a base rather than instruction tuned model.
 
 ## Repository Structure
 
@@ -53,8 +56,8 @@ TempoVul/
 │   ├── FIG5-KMCURVE.png                    Kaplan-Meier survival curves
 │   ├── FIG6-MEDIANDHEATMAP.png             median detection stage by CWE category
 │   └── EDR-Values-ForLLMS.png              early detection rate by LLM
-├── notebooks/                              evaluation pipeline notebooks
-└── src/utils/                              dataset construction and evaluation scripts
+├── notebooks/                              dataset construction, evaluation, and analysis notebooks
+└── src/utils/                              evaluation and analysis scripts
 ```
 
 ## Quickstart
@@ -75,7 +78,7 @@ static_results = pd.read_csv("data/static_tool_outputs/static_master.csv")
 
 ## Related Work
 
-This benchmark complements [IRAS-SDLC](https://doi.org/10.3390/systems14050546), a lifecycle risk aggregation framework for secure AI augmented software assurance under RMF and Zero Trust, by the same research group.
+This benchmark complements [IRAS-SDLC](https://doi.org/10.3390/systems14050546), a lifecycle risk aggregation framework for secure AI augmented software assurance under RMF and Zero Trust, from the same research group.
 
 ## Citation
 
@@ -88,12 +91,13 @@ This benchmark complements [IRAS-SDLC](https://doi.org/10.3390/systems14050546),
 }
 ```
 
-See [CITATION.cff](CITATION.cff) for the machine readable version.
+The machine readable citation file is available at [CITATION.cff](CITATION.cff).
 
 ## License
 
-Code is released under the [MIT License](LICENSE). `tempovul_v2.csv` draws source code from the Juliet Test Suite (NIST, public domain), Devign (FFmpeg, QEMU, OpenSSL, Linux kernel), and Big-Vul (348 GitHub projects, mixed licenses). Underlying code retains its original project license. TempoVul's own additions (stage artifacts, labels, prompts) are released under MIT alongside the code.
+Code is released under the [MIT License](LICENSE). `tempovul_v2.csv` draws source code from three corpora. The Juliet Test Suite is a NIST public domain resource. Devign draws from FFmpeg, QEMU, OpenSSL, and the Linux kernel. Big-Vul draws from 348 GitHub projects under mixed licenses. Underlying code retains its original project license. TempoVul's own additions, including stage artifacts, labels, and prompts, are released under MIT alongside the code.
 
 ## Contact
 
-Samson Quaye. squaye@hawk.illinoistech.edu
+Samson Quaye
+squaye@hawk.illinoistech.edu
