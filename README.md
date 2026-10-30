@@ -91,7 +91,7 @@ This benchmark complements [IRAS-SDLC](https://doi.org/10.3390/systems14050546),
 @article{quaye2026tempovul,
   title   = {A Temporal Benchmark Study of LLM-Assisted Vulnerability Detection Across the Secure SDLC},
   author  = {Quaye, Samson and Ben Ayed, Ahmed and Dawson, Maurice and Omar, Marwan},
-  journal = {Preprint submitted to Elsevier},
+  journal = {Preprint submitted to IJMC},
   year    = {2026}
 }
 ```
